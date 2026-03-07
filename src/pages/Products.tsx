@@ -39,10 +39,9 @@ const Products = () => {
     const allCategories = ['All Specimens', 'Optics', 'Structure', 'Power', 'Intelligence'];
     const navLinks = [
         { name: 'Home', href: '/' },
-        { name: 'Gallery', href: '/products' },
-        { name: 'Elite', href: '/products2' },
-        { name: 'Atelier', href: '/products3' },
-        { name: 'Values', href: '/#values' }
+        { name: 'Products', href: '/products' },
+        { name: 'Products2', href: '/products2' },
+        { name: 'Products3', href: '/products3' },
     ];
 
     // Cinematic Loading Orchestrator
@@ -96,34 +95,44 @@ const Products = () => {
             <CosmicBackground />
 
             {/* 1. The Floating Site Menu (Top Right) */}
-            <div className="fixed top-8 right-8 z-[700] flex flex-col items-end pointer-events-none">
+            <div className="fixed top-4 right-4 md:top-8 md:right-8 z-[700] flex flex-col items-end pointer-events-none">
                 <button
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    className="w-16 h-16 bg-[#121212] text-[#FDFDFA] flex items-center justify-center rounded-sm shadow-2xl pointer-events-auto hover:bg-[#8B7E74] transition-colors duration-500"
+                    className="w-12 h-12 md:w-16 md:h-16 bg-[#121212] text-[#FDFDFA] flex items-center justify-center rounded-sm shadow-2xl pointer-events-auto hover:bg-[#8B7E74] transition-colors duration-500"
                 >
-                    {isMenuOpen ? <X size={20} /> : <Menu size={20} />}
+                    {isMenuOpen ? <X size={18} /> : <Menu size={18} />}
                 </button>
 
                 <AnimatePresence>
                     {isMenuOpen && (
                         <motion.div
-                            initial={{ opacity: 0, y: 20, scale: 0.95 }}
-                            animate={{ opacity: 1, y: 0, scale: 1 }}
-                            exit={{ opacity: 0, y: 10, scale: 0.95 }}
-                            className="mt-4 p-8 bg-[#FDFDFA] border border-black/5 shadow-connex-light flex flex-col pointer-events-auto min-w-[240px] bg-noise"
+                            initial={{ opacity: 0, scale: 0.95, y: -10 }}
+                            animate={{ opacity: 1, scale: 1, y: 0 }}
+                            exit={{ opacity: 0, scale: 0.95, y: -10 }}
+                            transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
+                            className="mt-2 md:mt-4 w-64 bg-white border border-black/5 shadow-[0_20px_50px_rgba(0,0,0,0.1)] rounded-sm overflow-hidden z-[1000] pointer-events-auto"
                         >
-                            <span className="text-xs font-mono text-[#8B7E74] uppercase tracking-[0.5em] mb-6">Navigation</span>
-                            <div className="space-y-4">
-                                {navLinks.map(link => (
+                            <div className="flex flex-col p-2">
+                                {navLinks.map((link, idx) => (
                                     <Link
                                         key={link.name}
                                         to={link.href}
-                                        className="group flex items-center justify-between text-xl font-serif text-[#121212] hover:text-[#8B7E74] transition-colors"
+                                        className="px-5 py-4 text-[10px] font-sans font-black text-[#121212]/60 hover:text-[#121212] hover:bg-black/[0.02] tracking-[0.3em] uppercase transition-all flex items-center gap-4 border-b border-black/[0.03] last:border-0"
+                                        onClick={() => setIsMenuOpen(false)}
                                     >
-                                        <span>{link.name}</span>
-                                        <ArrowUpRight size={12} className="opacity-0 group-hover:opacity-100 transition-opacity" />
+                                        <span className="text-[8px] font-mono text-[#8B7E74] opacity-50">0{idx + 1}</span>
+                                        {link.name}
                                     </Link>
                                 ))}
+                            </div>
+
+                            {/* Footer Detail */}
+                            <div className="bg-black/[0.01] border-t border-black/5 p-4 flex justify-between items-center">
+                                <span className="text-[7px] font-mono text-black/20 tracking-widest uppercase italic">Archive_Sys_04</span>
+                                <div className="flex gap-1.5">
+                                    <div className="w-1.5 h-1.5 rounded-full bg-[#8B7E74]" />
+                                    <div className="w-1.5 h-1.5 rounded-full bg-black/5" />
+                                </div>
                             </div>
                         </motion.div>
                     )}
@@ -145,17 +154,17 @@ const Products = () => {
                 initial="hidden"
                 animate="visible"
                 variants={pageReveal}
-                className="container mx-auto px-6 relative z-10 pt-12 pb-80"
+                className="container mx-auto px-4 md:px-6 relative z-10 pt-12 pb-40 md:pb-80"
             >
 
                 {/* 1. Page Header: Architectural Statement */}
-                <motion.div variants={pageReveal} className="flex flex-col lg:flex-row justify-between items-end gap-2 mb-2">
+                <motion.div variants={pageReveal} className="flex flex-col lg:flex-row justify-between items-start md:items-end gap-2 mb-8 md:mb-2">
                     <div className="space-y-2">
                         <div className="flex items-center gap-4">
-                            <span className="text-[#8B7E74] font-mono text-sm uppercase font-black tracking-[0.2em]">Archive_Inventory</span>
-                            <div className="divider-fine w-12" />
+                            <span className="text-[#8B7E74] font-mono text-xs md:text-sm uppercase font-black tracking-[0.2em]">Archive_Inventory</span>
+                            <div className="divider-fine w-8 md:w-12" />
                         </div>
-                        <h1 className="text-5xl lg:text-[6.5vw] font-serif text-[#121212] tracking-tighter uppercase leading-none overflow-hidden">
+                        <h1 className="text-4xl md:text-5xl lg:text-[6.5vw] font-serif text-[#121212] tracking-tighter uppercase leading-none overflow-hidden">
                             The <span className="text-connex-gradient italic font-light lowercase">Hardware.</span>
                         </h1>
                     </div>
@@ -167,7 +176,7 @@ const Products = () => {
                         <button
                             key={cat}
                             onClick={() => handleCategoryChange(cat)}
-                            className={`px-8 py-4 text-xs uppercase font-black tracking-[0.1em] transition-all duration-500 whitespace-nowrap relative ${activeCategory === cat ? 'text-[#FDFDFA]' : 'text-[#8B7E74] hover:text-[#121212]'}`}
+                            className={`px-4 md:px-8 py-4 text-[10px] md:text-xs uppercase font-black tracking-[0.1em] transition-all duration-500 whitespace-nowrap relative ${activeCategory === cat ? 'text-[#FDFDFA]' : 'text-[#8B7E74] hover:text-[#121212]'}`}
                         >
                             <span className="relative z-10">{cat}</span>
                             {activeCategory === cat && (
@@ -182,7 +191,7 @@ const Products = () => {
                 </div>
 
                 {/* 3. The Unified Specimen Archive with Cinematic Loading */}
-                <div className="min-h-[120vh] relative">
+                <div className="min-h-[60vh] md:min-h-[120vh] relative">
                     <AnimatePresence mode="wait">
                         {isLoading ? (
                             <motion.div
@@ -195,20 +204,15 @@ const Products = () => {
                             >
                                 <div className="flex items-center gap-4">
                                     <div className="w-2 h-2 rounded-full bg-[#121212] animate-ping" />
-                                    <span className="text-sm font-mono text-[#121212] uppercase tracking-[0.3em] font-black">Specimen_Extraction_In_Progress</span>
+                                    <span className="text-[10px] md:text-sm font-mono text-[#121212] uppercase tracking-[0.3em] font-black text-center">Specimen_Extraction_In_Progress</span>
                                 </div>
-                                <div className="w-80 h-[1px] bg-black/5 relative overflow-hidden">
+                                <div className="w-60 md:w-80 h-[1px] bg-black/5 relative overflow-hidden">
                                     <motion.div
                                         initial={{ left: '-100%' }}
                                         animate={{ left: '100%' }}
                                         transition={{ duration: 1.2, repeat: Infinity, ease: "easeInOut" }}
                                         className="absolute inset-0 w-1/2 bg-[#8B7E74]"
                                     />
-                                </div>
-                                <div className="flex gap-10 opacity-30">
-                                    <span className="text-xs font-mono">ID: 0x488_RECALL</span>
-                                    <span className="text-xs font-mono">STATUS: SYNCING_ARCHIVE</span>
-                                    <span className="text-xs font-mono">BIT_RATE: 2.8_TF</span>
                                 </div>
                             </motion.div>
                         ) : (
@@ -218,7 +222,7 @@ const Products = () => {
                                 animate="animate"
                                 exit="exit"
                                 variants={categoryTransition}
-                                className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-6 gap-y-12"
+                                className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-6 gap-y-12"
                             >
                                 {productsPool.map((product, idx) => {
                                     // Filter logic

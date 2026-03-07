@@ -1,6 +1,6 @@
 import { useState, useRef, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Search, List, LayoutGrid, ChevronRight, Globe, Compass, Cpu, Zap, Info, ArrowUpRight, Maximize2, Columns, Layers, Filter, SortAsc } from 'lucide-react';
+import { X, Search, List, LayoutGrid, ArrowUpRight, Maximize2, Columns } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 interface Product {
@@ -59,10 +59,10 @@ const Products3 = () => {
     }, [activeCategory, searchQuery]);
 
     const navLinks = [
-        { name: 'Gateway', href: '/' },
-        { name: 'Catalogue', href: '/products' },
-        { name: 'Elite', href: '/products2' },
-        { name: 'Atelier', href: '/products3' },
+        { name: 'Home', href: '/' },
+        { name: 'Products', href: '/products' },
+        { name: 'Products2', href: '/products2' },
+        { name: 'Products3', href: '/products3' },
     ];
 
     return (
@@ -76,14 +76,14 @@ const Products3 = () => {
             </div>
 
             {/* 2. Precision Layout Controller (Header) */}
-            <header className="fixed top-0 left-0 w-full z-[1000] px-8 py-6 flex items-center justify-between pointer-events-auto bg-[#101214]/80 backdrop-blur-xl border-b border-white/5">
-                <div className="flex items-center gap-8">
-                    <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="group flex items-center gap-3 bg-white/5 px-4 py-2 rounded-lg border border-white/5 hover:border-white/20 transition-all">
+            <header className="fixed top-0 left-0 w-full z-[1000] px-4 md:px-8 py-4 md:py-6 flex items-center justify-between pointer-events-auto bg-[#101214]/80 backdrop-blur-xl border-b border-white/5">
+                <div className="flex items-center gap-4 md:gap-8">
+                    <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="group flex items-center gap-2 md:gap-3 bg-white/5 px-3 md:px-4 py-1.5 md:py-2 rounded-lg border border-white/5 hover:border-white/20 transition-all">
                         <div className="flex flex-col gap-1 items-center">
-                            <div className="w-4 h-[1px] bg-white/40 group-hover:bg-white" />
-                            <div className="w-2 h-[1px] bg-white/40 group-hover:bg-white" />
+                            <div className="w-3 md:w-4 h-[1px] bg-white/40 group-hover:bg-white" />
+                            <div className="w-1.5 md:w-2 h-[1px] bg-white/40 group-hover:bg-white" />
                         </div>
-                        <span className="text-sm font-bold uppercase tracking-widest opacity-40 group-hover:opacity-100 transition-opacity">Menu</span>
+                        <span className="text-[10px] md:text-sm font-bold uppercase tracking-widest opacity-40 group-hover:opacity-100 transition-opacity">Menu</span>
                     </button>
                     <div className="h-6 w-[1px] bg-white/10 hidden md:block" />
                     <div className="hidden lg:flex items-center gap-1 bg-black/20 p-1 rounded-lg border border-white/5">
@@ -99,10 +99,10 @@ const Products3 = () => {
                     </div>
                 </div>
 
-                <Link to="/" className="text-lg font-serif italic text-white/40 hover:text-white transition-colors tracking-tighter absolute left-1/2 -translate-x-1/2">Atelier.</Link>
+                <Link to="/" className="text-base md:text-lg font-serif italic text-white/40 hover:text-white transition-colors tracking-tighter absolute left-1/2 -translate-x-1/2">Atelier.</Link>
 
-                <div className="flex items-center gap-4">
-                    <div className="hidden md:flex items-center gap-2 bg-black/20 px-3 py-1.5 rounded-lg border border-white/5 text-xs font-mono tracking-widest uppercase">
+                <div className="flex items-center gap-2 md:gap-4">
+                    <div className="hidden xl:flex items-center gap-2 bg-black/20 px-3 py-1.5 rounded-lg border border-white/5 text-xs font-mono tracking-widest uppercase">
                         <span className="text-white/10">Density:</span>
                         <button onClick={() => setDensity('comfortable')} className={`${density === 'comfortable' ? 'text-white' : 'text-white/20'} hover:text-white transition-colors`}>Comfort</button>
                         <span className="text-white/5">/</span>
@@ -111,13 +111,13 @@ const Products3 = () => {
                     <AnimatePresence>
                         {isSearchOpen && (
                             <motion.div
-                                initial={{ width: 0, opacity: 0 }} animate={{ width: 180, opacity: 1 }} exit={{ width: 0, opacity: 0 }}
+                                initial={{ width: 0, opacity: 0 }} animate={{ width: 120, opacity: 1 }} exit={{ width: 0, opacity: 0 }}
                                 className="overflow-hidden border-b border-white/20 px-2 flex items-center gap-2"
                             >
-                                <Search size={12} className="text-white/20" />
+                                <Search size={10} className="text-white/20" />
                                 <input
                                     autoFocus placeholder="Search..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)}
-                                    className="bg-transparent text-sm uppercase tracking-widest outline-none placeholder:text-white/10 w-full h-8"
+                                    className="bg-transparent text-[10px] md:text-sm uppercase tracking-widest outline-none placeholder:text-white/10 w-full h-8"
                                 />
                             </motion.div>
                         )}
@@ -129,19 +129,19 @@ const Products3 = () => {
             </header>
 
             {/* 3. Soft Category Navigation (Secondary Dock) */}
-            <div className="pt-28 pb-4 relative z-10 px-8">
-                <div className="flex items-baseline justify-between border-b border-white/5 pb-6">
+            <div className="pt-24 md:pt-28 pb-4 relative z-10 px-4 md:px-8">
+                <div className="flex flex-col md:flex-row items-baseline justify-between border-b border-white/5 pb-6 gap-4">
                     <div className="flex items-baseline gap-4">
-                        <h2 className="text-2xl font-serif italic text-white/80 uppercase tracking-tighter leading-none">The_Array.</h2>
-                        <span className="text-xs font-mono text-white/10 uppercase tracking-[0.4em] mb-0.5">Filter_Modes</span>
+                        <h2 className="text-xl md:text-2xl font-serif italic text-white/80 uppercase tracking-tighter leading-none whitespace-nowrap">The_Array.</h2>
+                        <span className="text-[10px] md:text-xs font-mono text-white/10 uppercase tracking-[0.4em] mb-0.5">Filter_Modes</span>
                     </div>
 
-                    <div className="flex items-center gap-1 overflow-x-auto no-scrollbar py-2">
+                    <div className="flex items-center gap-1 overflow-x-auto no-scrollbar py-2 w-full md:w-auto">
                         {categories.map((cat) => (
                             <button
                                 key={cat}
                                 onClick={() => setActiveCategory(cat)}
-                                className={`px-5 py-2 rounded-full text-sm font-bold uppercase tracking-widest transition-all duration-500 whitespace-nowrap ${activeCategory === cat ? 'bg-white/5 text-white' : 'text-white/20 hover:text-white/40'}`}
+                                className={`px-4 md:px-5 py-2 rounded-full text-[10px] md:text-sm font-bold uppercase tracking-widest transition-all duration-500 whitespace-nowrap ${activeCategory === cat ? 'bg-white/5 text-white' : 'text-white/20 hover:text-white/40'}`}
                             >
                                 {cat}
                                 {activeCategory === cat && (
@@ -225,29 +225,36 @@ const Products3 = () => {
                 )}
             </AnimatePresence>
 
-            {/* Menu Overlay */}
+            {/* Technical Navbar Dropdown */}
             <AnimatePresence>
                 {isMenuOpen && (
                     <motion.div
-                        initial={{ opacity: 0, scale: 1.1 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 1.1 }}
-                        className="fixed inset-0 z-[1000] bg-[#101214]/99 backdrop-blur-3xl flex items-center justify-center p-24"
+                        initial={{ opacity: 0, scale: 0.95, y: -10 }}
+                        animate={{ opacity: 1, scale: 1, y: 0 }}
+                        exit={{ opacity: 0, scale: 0.95, y: -10 }}
+                        transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
+                        className="fixed top-16 md:top-24 left-4 md:left-8 w-64 bg-[#101214] border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.5)] rounded-sm overflow-hidden z-[1100]"
                     >
-                        <button onClick={() => setIsMenuOpen(false)} className="absolute top-12 right-12 text-white/10 hover:text-white transition-colors">
-                            <X size={32} />
-                        </button>
-                        <nav className="flex flex-col gap-8">
-                            {navLinks.map((l, i) => (
-                                <Link key={l.href} to={l.href} onClick={() => setIsMenuOpen(false)} className="group relative">
-                                    <motion.div
-                                        initial={{ y: 50, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: i * 0.1 }}
-                                        className="text-[12vh] font-serif italic uppercase text-white/60 group-hover:text-white transition-all tracking-tighter flex items-center gap-8"
-                                    >
-                                        <span className="text-xs font-mono opacity-20">EX_0{i + 1}</span>
-                                        {l.name}
-                                    </motion.div>
+                        <div className="flex flex-col p-2">
+                            {navLinks.map((link, idx) => (
+                                <Link
+                                    key={link.href}
+                                    to={link.href}
+                                    onClick={() => setIsMenuOpen(false)}
+                                    className="px-5 py-4 text-[10px] font-mono font-bold text-white/50 hover:text-white hover:bg-white/5 tracking-[0.3em] uppercase transition-all flex items-center gap-4 border-b border-white/[0.03] last:border-0"
+                                >
+                                    <span className="text-[8px] opacity-20">EX_0{idx + 1}</span>
+                                    {link.name}
                                 </Link>
                             ))}
-                        </nav>
+                        </div>
+                        <div className="bg-white/[0.01] border-t border-white/5 p-4 flex justify-between items-center">
+                            <span className="text-[7px] font-mono text-white/10 tracking-[0.5em] uppercase italic">Module_Active</span>
+                            <div className="flex gap-1.5">
+                                <div className="w-1 h-1 rounded-full bg-white/40" />
+                                <div className="w-1 h-1 rounded-full bg-white/5" />
+                            </div>
+                        </div>
                     </motion.div>
                 )}
             </AnimatePresence>
@@ -259,7 +266,6 @@ const UniversalCard = ({ product, index, mode, density, onQuickView }: { product
     const [isHovered, setIsHovered] = useState(false);
 
     // Dynamic sizing based on density & mode
-    const isGrid = mode === 'grid';
     const isFocus = mode === 'focus';
     const isList = mode === 'list';
 
