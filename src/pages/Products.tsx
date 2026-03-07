@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import type { Variants } from 'framer-motion';
-import { Menu, X, ArrowUpRight } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import Contact from '../components/Contact';
 import CosmicBackground from '../components/CosmicBackground';
 import { Link } from 'react-router-dom';
