@@ -187,7 +187,7 @@ const Products3 = () => {
                 {selectedSpecimen && (
                     <motion.div
                         initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
-                        className="fixed inset-0 z-[2000] bg-[#101214]/98 backdrop-blur-2xl flex items-center justify-center p-6"
+                        className="fixed inset-0 z-[2000] bg-[#3ac3d6]/98 backdrop-blur-2xl flex items-center justify-center p-6"
                     >
                         <motion.div
                             initial={{ scale: 0.98, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} exit={{ scale: 0.98, opacity: 0 }}
@@ -200,25 +200,21 @@ const Products3 = () => {
                                 <div className="absolute inset-0 bg-gradient-to-br from-white/[0.02] to-transparent opacity-50" />
                                 <img src={selectedSpecimen.img} className="max-w-full max-h-[400px] object-contain relative z-10 transition-transform duration-1000 group-hover:scale-105" />
                             </div>
-                            <div className="lg:w-1/2 p-12 lg:p-20 flex flex-col justify-between">
+                            <div className="lg:w-1/2 p-12 lg:p-20 flex flex-col justify-between bg-white/5 shadow-inner">
                                 <div className="space-y-12">
                                     <div className="space-y-4">
-                                        <span className="text-sm font-mono text-[#8E9AAF] tracking-[0.5em] uppercase">UID_{selectedSpecimen.id}</span>
-                                        <h2 className="text-5xl lg:text-7xl font-serif italic text-white leading-none uppercase tracking-tighter">{selectedSpecimen.name}</h2>
-                                        <p className="text-white/40 text-base font-light italic leading-relaxed">{selectedSpecimen.description}</p>
+                                        <span className="text-sm font-mono text-slate-900 font-black tracking-[0.5em] uppercase">UID_{selectedSpecimen.id}</span>
+                                        <h2 className="text-5xl lg:text-7xl font-serif italic text-slate-900 leading-none uppercase tracking-tighter shadow-sm">{selectedSpecimen.name}</h2>
+                                        <p className="text-slate-900/80 text-lg font-medium italic leading-relaxed">{selectedSpecimen.description}</p>
                                     </div>
-                                    <div className="flex justify-between items-end border-y border-white/5 py-8">
+                                    <div className="flex justify-between items-end border-y-2 border-slate-900/10 py-10">
                                         <div className="space-y-4">
-                                            <span className="text-sm text-white/10 uppercase tracking-widest block font-bold">Grade_Parameters</span>
-                                            <span className="text-xl font-mono text-[#8E9AAF] tracking-tighter uppercase">{selectedSpecimen.spec}</span>
-                                        </div>
-                                        <div className="text-right space-y-4">
-                                            <span className="text-sm text-white/10 uppercase tracking-widest block font-bold">Mkt_Valuation</span>
-                                            <span className="text-5xl font-serif italic text-white leading-none tracking-tighter">{selectedSpecimen.price}</span>
+                                            <span className="text-[12px] text-slate-900 uppercase tracking-widest block font-black">Grade_Parameters</span>
+                                            <span className="text-2xl font-mono text-slate-900 tracking-tighter uppercase font-black">{selectedSpecimen.spec}</span>
                                         </div>
                                     </div>
                                 </div>
-                                <button className="mt-12 w-full bg-white text-black py-7 text-xs uppercase font-bold tracking-[0.8em] hover:bg-[#8E9AAF] hover:text-white transition-all transform hover:-translate-y-1">Initialize_Inquiry</button>
+                                <button className="mt-12 w-full bg-slate-900 text-white py-8 text-[11px] font-black uppercase tracking-[0.8em] hover:bg-white hover:text-slate-900 transition-all shadow-2xl">Initialize_Inquiry</button>
                             </div>
                         </motion.div>
                     </motion.div>
@@ -233,7 +229,7 @@ const Products3 = () => {
                         animate={{ opacity: 1, scale: 1, y: 0 }}
                         exit={{ opacity: 0, scale: 0.95, y: -10 }}
                         transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
-                        className="fixed top-16 md:top-24 left-4 md:left-8 w-64 bg-[#101214] border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.5)] rounded-sm overflow-hidden z-[1100]"
+                        className="fixed top-16 md:top-24 left-4 md:left-8 w-64 bg-[#3ac3d6] border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.5)] rounded-sm overflow-hidden z-[1100]"
                     >
                         <div className="flex flex-col p-2">
                             {navLinks.map((link, idx) => (
@@ -241,18 +237,18 @@ const Products3 = () => {
                                     key={link.href}
                                     to={link.href}
                                     onClick={() => setIsMenuOpen(false)}
-                                    className="px-5 py-4 text-[10px] font-mono font-bold text-white/50 hover:text-white hover:bg-white/5 tracking-[0.3em] uppercase transition-all flex items-center gap-4 border-b border-white/[0.03] last:border-0"
+                                    className="px-5 py-4 text-[10px] font-mono font-bold text-slate-900 hover:text-white transition-all flex items-center gap-4 border-b border-white/[0.03] last:border-0"
                                 >
                                     <span className="text-[8px] opacity-20">EX_0{idx + 1}</span>
                                     {link.name}
                                 </Link>
                             ))}
                         </div>
-                        <div className="bg-white/[0.01] border-t border-white/5 p-4 flex justify-between items-center">
-                            <span className="text-[7px] font-mono text-white/10 tracking-[0.5em] uppercase italic">Module_Active</span>
-                            <div className="flex gap-1.5">
-                                <div className="w-1 h-1 rounded-full bg-white/40" />
-                                <div className="w-1 h-1 rounded-full bg-white/5" />
+                        <div className="bg-slate-900/5 border-t border-slate-900/10 p-4 flex justify-between items-center">
+                            <span className="text-[7px] font-mono text-slate-900/40 tracking-[0.5em] uppercase italic font-black">Module_Active</span>
+                            <div className="flex gap-2">
+                                <div className="w-2 h-2 rounded-full bg-slate-900" />
+                                <div className="w-2 h-2 rounded-full bg-slate-900/20" />
                             </div>
                         </div>
                     </motion.div>
@@ -286,7 +282,6 @@ const UniversalCard = ({ product, index, mode, density, onQuickView }: { product
                     </div>
                 </div>
                 <div className="flex items-center gap-12">
-                    <span className="text-sm font-serif italic text-white/30 group-hover:text-white transition-colors">{product.price}</span>
                     <ArrowUpRight size={12} className="text-white/5 group-hover:text-white group-hover:rotate-45 transition-all" />
                 </div>
             </motion.div>
@@ -337,9 +332,6 @@ const UniversalCard = ({ product, index, mode, density, onQuickView }: { product
                         <span className="text-xs font-mono text-white/10 uppercase tracking-widest">{product.category}</span>
                         {isFocus && <span className="text-sm font-mono text-[#8E9AAF] mt-1">{product.spec}</span>}
                     </div>
-                    <span className={`${isFocus ? 'text-3xl' : 'text-xs'} font-serif italic text-white/40 group-hover:text-white transition-colors`}>
-                        {product.price}
-                    </span>
                 </div>
             </div>
         </motion.div>

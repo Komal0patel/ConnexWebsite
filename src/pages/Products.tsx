@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import type { Variants } from 'framer-motion';
-import { Menu, X } from 'lucide-react';
+import { X } from 'lucide-react';
 import Contact from '../components/Contact';
 import CosmicBackground from '../components/CosmicBackground';
 import { Link } from 'react-router-dom';
@@ -98,9 +98,10 @@ const Products = () => {
             <div className="fixed top-4 right-4 md:top-8 md:right-8 z-[700] flex flex-col items-end pointer-events-none">
                 <button
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    className="w-12 h-12 md:w-16 md:h-16 bg-[#121212] text-[#FDFDFA] flex items-center justify-center rounded-sm shadow-2xl pointer-events-auto hover:bg-[#8B7E74] transition-colors duration-500"
+                    className="w-14 h-14 md:w-20 md:h-20 bg-[#3ac3d6] text-slate-900 flex flex-col items-center justify-center rounded-sm shadow-2xl pointer-events-auto hover:bg-slate-900 hover:text-white transition-all duration-500 border-2 border-slate-900/20"
                 >
-                    {isMenuOpen ? <X size={18} /> : <Menu size={18} />}
+                    <span className="text-[10px] font-black uppercase tracking-tighter mb-1 select-none">Menu</span>
+                    {isMenuOpen ? <X size={20} /> : <div className="flex flex-col gap-1"><div className="w-6 h-0.5 bg-slate-900 group-hover:bg-white" /><div className="w-4 h-0.5 bg-slate-900 group-hover:bg-white" /></div>}
                 </button>
 
                 <AnimatePresence>
@@ -110,28 +111,28 @@ const Products = () => {
                             animate={{ opacity: 1, scale: 1, y: 0 }}
                             exit={{ opacity: 0, scale: 0.95, y: -10 }}
                             transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
-                            className="mt-2 md:mt-4 w-64 bg-white border border-black/5 shadow-[0_20px_50px_rgba(0,0,0,0.1)] rounded-sm overflow-hidden z-[1000] pointer-events-auto"
+                            className="mt-2 md:mt-4 w-64 bg-white border border-[#3ac3d6]/5 shadow-[0_20px_50px_rgba(0,0,0,0.1)] rounded-sm overflow-hidden z-[1000] pointer-events-auto"
                         >
                             <div className="flex flex-col p-2">
                                 {navLinks.map((link, idx) => (
                                     <Link
                                         key={link.name}
                                         to={link.href}
-                                        className="px-5 py-4 text-[10px] font-sans font-black text-[#121212]/60 hover:text-[#121212] hover:bg-black/[0.02] tracking-[0.3em] uppercase transition-all flex items-center gap-4 border-b border-black/[0.03] last:border-0"
+                                        className="px-5 py-5 text-[12px] font-sans font-black text-slate-900/80 hover:text-slate-900 hover:bg-[#3ac3d6]/10 tracking-[0.3em] uppercase transition-all flex items-center gap-6 border-b border-black/5 last:border-0"
                                         onClick={() => setIsMenuOpen(false)}
                                     >
-                                        <span className="text-[8px] font-mono text-[#8B7E74] opacity-50">0{idx + 1}</span>
+                                        <span className="text-[10px] font-mono text-slate-900 opacity-40">0{idx + 1}</span>
                                         {link.name}
                                     </Link>
                                 ))}
                             </div>
 
                             {/* Footer Detail */}
-                            <div className="bg-black/[0.01] border-t border-black/5 p-4 flex justify-between items-center">
-                                <span className="text-[7px] font-mono text-black/20 tracking-widest uppercase italic">Archive_Sys_04</span>
-                                <div className="flex gap-1.5">
-                                    <div className="w-1.5 h-1.5 rounded-full bg-[#8B7E74]" />
-                                    <div className="w-1.5 h-1.5 rounded-full bg-black/5" />
+                            <div className="bg-[#3ac3d6]/[0.01] border-t border-[#3ac3d6]/5 p-4 flex justify-between items-center">
+                                <span className="text-[7px] font-mono text-[#3ac3d6]/20 tracking-widest uppercase italic">Archive_Sys_04</span>
+                                <div className="flex gap-2">
+                                    <div className="w-2 h-2 rounded-full bg-slate-900" />
+                                    <div className="w-2 h-2 rounded-full bg-slate-900/10" />
                                 </div>
                             </div>
                         </motion.div>
@@ -146,7 +147,7 @@ const Products = () => {
                     initial="initial"
                     animate="animate"
                     variants={shutterVariants}
-                    className="fixed inset-0 bg-[#121212]/5 z-[600] origin-top pointer-events-none"
+                    className="fixed inset-0 bg-black/5 z-600 origin-top pointer-events-none"
                 />
             </AnimatePresence>
 
@@ -160,29 +161,29 @@ const Products = () => {
                 {/* 1. Page Header: Architectural Statement */}
                 <motion.div variants={pageReveal} className="flex flex-col lg:flex-row justify-between items-start md:items-end gap-2 mb-8 md:mb-2">
                     <div className="space-y-2">
-                        <div className="flex items-center gap-4">
-                            <span className="text-[#8B7E74] font-mono text-xs md:text-sm uppercase font-black tracking-[0.2em]">Archive_Inventory</span>
+                        <div className="flex items-center gap-4 mb-4">
+                            <span className="text-slate-500 font-mono text-xs md:text-sm uppercase font-black tracking-[0.2em]">Archive_Inventory</span>
                             <div className="divider-fine w-8 md:w-12" />
                         </div>
-                        <h1 className="text-4xl md:text-5xl lg:text-[6.5vw] font-serif text-[#121212] tracking-tighter uppercase leading-none overflow-hidden">
+                        <h1 className="text-4xl md:text-5xl lg:text-[6.5vw] font-serif text-slate-900 tracking-tighter uppercase leading-none overflow-hidden">
                             The <span className="text-connex-gradient italic font-light lowercase">Hardware.</span>
                         </h1>
                     </div>
                 </motion.div>
 
                 {/* 2. Horizontal Category Strip (Restored & Fixed) */}
-                <div className="flex border-b border-black/5 bg-[#FDFDFA] mb-8 overflow-x-auto no-scrollbar scroll-smooth relative z-20">
+                <div className="flex border-b border-[#3ac3d6]/5 bg-[#FDFDFA] mb-8 overflow-x-auto no-scrollbar scroll-smooth relative z-20">
                     {allCategories.map((cat) => (
                         <button
                             key={cat}
                             onClick={() => handleCategoryChange(cat)}
-                            className={`px-4 md:px-8 py-4 text-[10px] md:text-xs uppercase font-black tracking-[0.1em] transition-all duration-500 whitespace-nowrap relative ${activeCategory === cat ? 'text-[#FDFDFA]' : 'text-[#8B7E74] hover:text-[#121212]'}`}
+                            className={`px-6 md:px-10 py-5 text-[11px] md:text-sm uppercase font-black tracking-[0.2em] transition-all duration-500 whitespace-nowrap relative ${activeCategory === cat ? 'text-slate-900' : 'text-slate-900/40 hover:text-slate-900'}`}
                         >
                             <span className="relative z-10">{cat}</span>
                             {activeCategory === cat && (
                                 <motion.div
                                     layoutId="cat-bg-premium-restored"
-                                    className="absolute inset-0 bg-[#121212] z-0"
+                                    className="absolute inset-0 bg-[#3ac3d6] z-0 shadow-lg"
                                     transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
                                 />
                             )}
@@ -203,10 +204,10 @@ const Products = () => {
                                 className="absolute inset-0 flex flex-col items-center justify-center space-y-8 h-[60vh]"
                             >
                                 <div className="flex items-center gap-4">
-                                    <div className="w-2 h-2 rounded-full bg-[#121212] animate-ping" />
-                                    <span className="text-[10px] md:text-sm font-mono text-[#121212] uppercase tracking-[0.3em] font-black text-center">Specimen_Extraction_In_Progress</span>
+                                    <div className="w-2 h-2 rounded-full bg-[#3ac3d6] animate-ping" />
+                                    <span className="text-[10px] md:text-sm font-mono text-[#3ac3d6] uppercase tracking-[0.3em] font-black text-center">Specimen_Extraction_In_Progress</span>
                                 </div>
-                                <div className="w-60 md:w-80 h-[1px] bg-black/5 relative overflow-hidden">
+                                <div className="w-60 md:w-80 h-[1px] bg-[#3ac3d6]/5 relative overflow-hidden">
                                     <motion.div
                                         initial={{ left: '-100%' }}
                                         animate={{ left: '100%' }}
@@ -243,12 +244,12 @@ const Products = () => {
 
                 {/* 4. Bottom Scientific Detail */}
                 <motion.div variants={pageReveal} className="mt-[20vh] flex flex-col items-center">
-                    <div className="flex items-center gap-10 opacity-10 mb-10 w-full">
-                        <div className="h-[1px] flex-1 bg-black" />
-                        <span className="text-sm font-mono tracking-[0.5em]">SYSTEM_RECAP</span>
-                        <div className="h-[1px] flex-1 bg-black" />
+                    <div className="flex items-center gap-10 opacity-20 mb-10 w-full">
+                        <div className="h-[2px] flex-1 bg-slate-900/20" />
+                        <span className="text-sm font-mono tracking-[0.5em] font-black text-slate-900 uppercase">Archive_System_Diagnostics</span>
+                        <div className="h-[2px] flex-1 bg-slate-900/20" />
                     </div>
-                    <span className="text-sm font-mono text-[#8B7E74] uppercase tracking-[0.5em] opacity-30">Archive Inventory rev_04_final</span>
+                    <span className="text-sm font-mono text-slate-900 uppercase tracking-[0.5em] font-black opacity-30">Archive Inventory rev_04_final // Connex Design Lab</span>
                 </motion.div>
             </motion.div>
 
@@ -305,7 +306,7 @@ const ProductCard = ({ product, index }: { product: Product; index: number }) =>
             className="group relative flex flex-col"
         >
             {/* The Luxury Compact Case */}
-            <div className="relative aspect-[3/4] flex flex-col p-4 overflow-hidden transition-all duration-1000 bg-[#FDFDFA] shadow-connex-light border border-black/5 rounded-[1px] bg-noise">
+            <div className="relative aspect-[3/4] flex flex-col p-4 overflow-hidden transition-all duration-1000 bg-[#FDFDFA] shadow-connex-light border border-[#3ac3d6]/5 rounded-[1px] bg-noise">
 
                 {/* 1. Shimmer Overlay */}
                 <div
@@ -315,15 +316,15 @@ const ProductCard = ({ product, index }: { product: Product; index: number }) =>
                     }}
                 />
 
-                <div className="absolute inset-1 border border-black/[0.03] pointer-events-none group-hover:border-[#8B7E74]/30 transition-colors duration-1000 z-10" />
+                <div className="absolute inset-1 border border-[#3ac3d6]/[0.03] pointer-events-none group-hover:border-[#8B7E74]/30 transition-colors duration-1000 z-10" />
 
                 {/* 2. Header */}
                 <div className="relative z-10 pl-1 flex justify-between items-start mb-2">
-                    <div className="space-y-0.5">
-                        <span className="text-xs font-mono text-[#8B7E74] tracking-[0.1em] uppercase opacity-40">Specimen_{product.id}</span>
-                        <h4 className="text-xl font-serif text-[#121212] leading-none uppercase tracking-tighter">
+                    <div className="space-y-1">
+                        <span className="text-[12px] font-mono text-slate-900 font-black tracking-[0.2em] uppercase opacity-60">Specimen_{product.id}</span>
+                        <h4 className="text-2xl font-serif text-slate-900 leading-none uppercase tracking-tighter">
                             {product.name.split(' ')[0]} <br />
-                            <span className="italic font-light lowercase text-connex-gradient">{product.name.split(' ')[1]}</span>
+                            <span className="italic font-light lowercase text-connex-gradient text-xl">{product.name.split(' ')[1]}</span>
                         </h4>
                     </div>
                 </div>
@@ -342,19 +343,18 @@ const ProductCard = ({ product, index }: { product: Product; index: number }) =>
 
                     {/* Compact Overlay */}
                     <div className="absolute inset-0 z-30 opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col items-center justify-center p-4 text-center bg-white/5 backdrop-blur-[1px]">
-                        <button className="px-6 py-2 bg-[#121212] text-white text-xs uppercase tracking-[0.1em] hover:bg-[#8B7E74] transition-all">
-                            View_Data
+                        <button className="px-10 py-4 bg-slate-900 text-white text-[11px] font-black uppercase tracking-[0.3em] hover:bg-[#3ac3d6] hover:text-slate-900 transition-all shadow-2xl">
+                            Extractor_View
                         </button>
                     </div>
                 </div>
 
                 {/* 4. Footer */}
-                <div className="relative z-10 px-1 mt-auto flex justify-between items-end border-t border-black/[0.03] pt-2">
-                    <div className="space-y-0.5">
-                        <span className="text-sm font-mono font-black text-[#121212] tracking-normal block">{product.price}</span>
-                        <span className="text-xs font-mono text-[#8B7E74] uppercase block tracking-widest">{product.category}</span>
+                <div className="relative z-10 px-1 mt-auto flex justify-between items-end border-t border-[#3ac3d6]/[0.03] pt-2">
+                    <div className="space-y-1">
+                        <span className="text-xs font-mono text-slate-900 font-black uppercase block tracking-widest">{product.category}</span>
                     </div>
-                    <span className="text-xs font-mono opacity-30">{product.spec}</span>
+                    <span className="text-xs font-mono text-slate-900 font-black opacity-30">{product.spec}</span>
                 </div>
             </div>
         </motion.div>

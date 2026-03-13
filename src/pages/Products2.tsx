@@ -105,10 +105,10 @@ const Products2 = () => {
                 {/* Header Section: Centered Architectural Statement */}
                 <header className="mb-8 md:mb-12 flex flex-col items-center text-center">
                     <div className="space-y-4 max-w-4xl px-4">
-                        <div className="flex items-center justify-center gap-4">
-                            <motion.div initial={{ width: 0 }} animate={{ width: 20, transition: { delay: 0.5 } }} className="h-[1px] bg-[#C5A059]/40" />
-                            <span className="text-[10px] md:text-sm font-mono text-[#C5A059] uppercase tracking-[0.5em] md:tracking-[0.8em]">Universal_Archive</span>
-                            <motion.div initial={{ width: 0 }} animate={{ width: 20, transition: { delay: 0.5 } }} className="h-[1px] bg-[#C5A059]/40" />
+                        <div className="flex items-center justify-center gap-6">
+                            <motion.div initial={{ width: 0 }} animate={{ width: 30, transition: { delay: 0.5 } }} className="h-[2px] bg-[#C5A059]/40" />
+                            <span className="text-[12px] md:text-base font-mono text-[#C5A059] uppercase tracking-[0.8em] font-black italic shadow-sm">Universal_Archive</span>
+                            <motion.div initial={{ width: 0 }} animate={{ width: 30, transition: { delay: 0.5 } }} className="h-[2px] bg-[#C5A059]/40" />
                         </div>
                         <h1 className="text-5xl md:text-7xl lg:text-[6vw] font-serif leading-[0.8] tracking-tighter uppercase italic text-transparent bg-clip-text bg-[linear-gradient(135deg,#FFFFFF_0%,#C5A059_100%)]">
                             The <span className="not-italic font-light">Elite</span>
@@ -124,7 +124,7 @@ const Products2 = () => {
                             <button
                                 key={cat}
                                 onClick={() => handleCategoryChange(cat)}
-                                className={`px-4 md:px-8 py-2 md:py-3 rounded-full text-[10px] md:text-sm uppercase tracking-[0.2em] md:tracking-[0.3em] font-bold transition-all duration-500 ${activeCategory === cat ? 'bg-[#C5A059] text-black' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
+                                className={`px-6 md:px-10 py-3 md:py-4 rounded-full text-[11px] md:text-sm uppercase tracking-[0.3em] font-black transition-all duration-500 shadow-xl ${activeCategory === cat ? 'bg-[#C5A059] text-black scale-110 shadow-[#C5A059]/20' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
                             >
                                 {cat}
                             </button>
@@ -260,10 +260,10 @@ const ObsidianCard = ({ product, index }: { product: Product, index: number }) =
         <motion.div
             variants={cardEntry}
             onMouseMove={handleMouseMove}
-            className="group relative aspect-[3/4] overflow-hidden bg-[#0A0A0A] border border-white/5 hover:border-[#C5A059]/40 transition-colors duration-700 cursor-none"
+            className="group relative aspect-[3/4] overflow-hidden bg-[#050505] border border-white/5 hover:border-[#C5A059]/40 transition-colors duration-700 cursor-none"
         >
             {/* Background Image Container */}
-            <div className="absolute inset-0 z-0 bg-[#050505] transition-colors duration-700 group-hover:bg-[#0A0A0A]">
+            <div className="absolute inset-0 z-0 bg-[#0A0A0A] transition-colors duration-700 group-hover:bg-[#0A0A0A]">
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0A] via-transparent to-transparent z-10 opacity-80" />
 
                 {/* Spectral Shimmer (Follows Mouse) */}
@@ -283,10 +283,10 @@ const ObsidianCard = ({ product, index }: { product: Product, index: number }) =
 
             {/* 1. Top Metadata - Slides Down on Hover */}
             <div className="absolute top-6 left-6 z-20 space-y-1 transition-all duration-700 ease-out group-hover:translate-y-8 group-hover:opacity-0">
-                <span className="text-xs font-mono text-[#C5A059] uppercase tracking-[0.8em] block">ID_{product.id}</span>
-                <div className="flex items-center gap-1.5">
-                    <div className="w-1 h-1 bg-[#C5A059] rounded-full animate-pulse" />
-                    <span className="text-[9px] font-mono uppercase text-[#C5A059] tracking-[0.3em]">Neural_Sync_Active</span>
+                <span className="text-sm font-mono text-[#C5A059] uppercase tracking-[0.8em] block font-black">ID_{product.id}</span>
+                <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-[#C5A059] rounded-full animate-pulse shadow-[0_0_10px_#C5A059]" />
+                    <span className="text-[10px] font-mono uppercase text-[#C5A059] tracking-[0.3em] font-black">Neural_Sync_Active</span>
                 </div>
             </div>
 
@@ -307,9 +307,6 @@ const ObsidianCard = ({ product, index }: { product: Product, index: number }) =
                                 <span className="text-[#C5A059] italic font-light lowercase text-lg">{product.name.split(' ')[1]}</span>
                             </h4>
                             <p className="text-xs uppercase tracking-[0.4em] text-white/20">{product.spec}</p>
-                        </div>
-                        <div className="text-right">
-                            <span className="block text-lg font-mono text-white/80 tracking-widest">{product.price}</span>
                         </div>
                     </div>
                 </div>

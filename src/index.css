@@ -1,13 +1,14 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Montserrat:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&display=swap');
 
 @theme {
   --color-connex-bg: #FDFDFA;
   --color-connex-primary: #121212;
+  --color-connex-cyan: #3ac3d6;
   --color-connex-secondary: #F4F4F1;
-  --color-connex-accent: #8B7E74;
-  --color-connex-text: #2D2D2A;
-  --font-sans: "Montserrat", "Inter", system-ui, sans-serif;
+  --color-connex-accent: #1e293b;
+  --color-connex-text: #1a1a1a;
+  --font-sans: "Outfit", "Inter", system-ui, sans-serif;
   --font-serif: "Cormorant Garamond", "Playfair Display", serif;
 }
 
@@ -21,6 +22,7 @@
   .theme-light {
     background-color: var(--color-connex-bg);
     color: var(--color-connex-text);
+    font-weight: 500;
   }
 
   body {
@@ -36,8 +38,8 @@
   }
 
   ::selection {
-    background-color: var(--color-connex-primary);
-    color: var(--color-connex-bg);
+    background-color: var(--color-connex-cyan);
+    color: #121212;
   }
 
   h1,
@@ -47,8 +49,9 @@
   h5,
   h6 {
     font-family: var(--font-serif);
-    letter-spacing: -0.05em;
+    letter-spacing: -0.04em;
     text-transform: uppercase;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
   }
 }
 
@@ -122,7 +125,7 @@
   }
 
   .text-connex-gradient {
-    background: linear-gradient(180deg, #121212 0%, #8B7E74 100%);
+    background: linear-gradient(180deg, #121212 0%, #1e293b 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -134,7 +137,7 @@
 }
 
 .text-outline-bronze {
-  -webkit-text-stroke: 1.5px rgba(139, 126, 116, 0.15);
+  -webkit-text-stroke: 1.5px rgba(30, 41, 59, 0.15);
   color: transparent;
 }
 
@@ -209,5 +212,5 @@
 
 .divider-fine {
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(139, 126, 116, 0.2), transparent);
+  background: linear-gradient(90deg, transparent, rgba(74, 85, 104, 0.2), transparent);
 }

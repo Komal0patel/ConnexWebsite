@@ -33,11 +33,11 @@ const Navbar = () => {
             animate={{
                 y: isScrolled ? 0 : -100,
                 opacity: isScrolled ? 1 : 0,
-                backgroundColor: 'rgba(18, 18, 18, 0.95)',
+                backgroundColor: 'rgba(58, 195, 214, 0.95)',
                 backdropFilter: 'blur(12px)',
                 borderBottom: '1px solid rgba(255, 255, 255, 0.05)',
-                paddingTop: '1.25rem',
-                paddingBottom: '1.25rem',
+                paddingTop: '1.5rem',
+                paddingBottom: '1.5rem',
                 pointerEvents: isScrolled ? 'auto' : 'none'
             }}
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
@@ -56,7 +56,7 @@ const Navbar = () => {
                         <span className="text-2xl md:text-4xl font-serif text-white font-medium tracking-tight uppercase italic">
                             Connex
                         </span>
-                        <span className="text-[8px] md:text-[10px] text-[#8B7E74] font-sans tracking-[1em] md:tracking-[1.2em] font-bold mt-0.5 md:mt-1 ml-0.5 md:ml-1 scale-x-110 origin-left opacity-80">DESIGN STUDIO</span>
+                        <span className="text-[10px] md:text-[12px] text-slate-900 font-sans tracking-[1.2em] font-black mt-1 ml-1 scale-x-110 origin-left">DESIGN STUDIO</span>
                     </div>
                 </Link>
 
@@ -66,16 +66,16 @@ const Navbar = () => {
                         <Link
                             key={link.name}
                             to={link.href}
-                            className="text-white/70 hover:text-white text-[10px] font-sans font-bold tracking-[0.4em] uppercase transition-all relative group"
+                            className="text-slate-900 hover:text-white text-[12px] font-sans font-black tracking-[0.3em] uppercase transition-all relative group"
                         >
                             {link.name}
-                            <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-[#8B7E74] transition-all duration-500 group-hover:w-full" />
+                            <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-slate-900 transition-all duration-500 group-hover:w-full" />
                         </Link>
                     ))}
 
                     <Link
                         to="/#contact"
-                        className="ml-4 px-6 py-2.5 border border-white/20 text-white text-[10px] font-bold uppercase tracking-[0.4em] hover:bg-white hover:text-black transition-all"
+                        className="ml-4 px-8 py-3.5 border-2 border-slate-900 text-slate-900 text-[11px] font-black uppercase tracking-[0.4em] hover:bg-slate-900 hover:text-white transition-all shadow-lg"
                     >
                         Contact
                     </Link>
@@ -101,26 +101,25 @@ const Navbar = () => {
                         animate={{ opacity: 1, scale: 1, y: 0 }}
                         exit={{ opacity: 0, scale: 0.95, y: -10 }}
                         transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
-                        className="absolute top-full right-6 mt-4 w-64 bg-[#0A0A0A] border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.5)] rounded-sm overflow-hidden z-[1000]"
+                        className="absolute top-full right-6 mt-4 w-64 bg-[#3ac3d6] border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.5)] rounded-sm overflow-hidden z-[1000]"
                     >
                         <div className="flex flex-col p-2">
                             {navLinks.map((link, idx) => (
                                 <Link
                                     key={link.name}
                                     to={link.href}
-                                    className="px-5 py-4 text-xs font-sans font-bold text-white/70 hover:text-white hover:bg-white/5 tracking-[0.3em] uppercase transition-all flex items-center justify-between group border-b border-white/[0.03] last:border-0"
+                                    className="px-5 py-4 text-[12px] font-sans font-bold text-white/70 hover:text-white hover:bg-white/5 tracking-[0.3em] uppercase transition-all flex items-center justify-between group border-b border-white/[0.03] last:border-0"
                                     onClick={() => setIsMobileMenuOpen(false)}
                                 >
                                     <div className="flex items-center gap-4">
-                                        <span className="text-[8px] font-mono text-[#8B7E74] opacity-50">0{idx + 1}</span>
+                                        <span className="text-[8px] font-mono text-white/40">0{idx + 1}</span>
                                         {link.name}
                                     </div>
                                 </Link>
                             ))}
-
                             <Link
                                 to="/#contact"
-                                className="mt-2 px-5 py-5 bg-white text-black text-[10px] font-black uppercase tracking-[0.4em] text-center hover:bg-[#8B7E74] hover:text-white transition-all"
+                                className="mt-2 px-5 py-5 bg-white text-[#1a1a1a] text-[10px] font-black uppercase tracking-[0.4em] text-center hover:bg-slate-900 hover:text-white transition-all"
                                 onClick={() => setIsMobileMenuOpen(false)}
                             >
                                 Establish Link
@@ -131,7 +130,7 @@ const Navbar = () => {
                         <div className="bg-white/[0.02] border-t border-white/5 p-4 flex justify-between items-center">
                             <span className="text-[7px] font-mono text-white/20 tracking-widest uppercase">Rev_04.26</span>
                             <div className="flex gap-1">
-                                <div className="w-1 h-1 rounded-full bg-[#8B7E74]" />
+                                <div className="w-1 h-1 rounded-full bg-white/40" />
                                 <div className="w-1 h-1 rounded-full bg-white/10" />
                             </div>
                         </div>

@@ -37,10 +37,10 @@ const AboutUs = () => {
                                 className="flex items-center gap-4"
                             >
                                 <div className="flex flex-col">
-                                    <span className="text-[#8B7E74] font-mono text-[10px] uppercase font-black tracking-[1em]">The Connex Ethos</span>
-                                    <h2 className="text-4xl md:text-5xl lg:text-7xl font-serif text-[#121212] leading-[1.1] mt-6 tracking-tighter uppercase">
+                                    <span className="text-slate-900 font-mono text-[12px] uppercase font-black tracking-[1.2em] shadow-sm mb-4">The Connex Ethos</span>
+                                    <h2 className="text-5xl md:text-6xl lg:text-8xl font-serif text-slate-900 leading-[0.9] mt-8 tracking-tighter uppercase">
                                         ILLUMINATING <br />
-                                        <span className="italic font-light text-[#8B7E74]/40 capitalize">Modern</span> <br />
+                                        <span className="italic font-light text-slate-300 capitalize translate-x-4 block">Modern</span>
                                         Spaces.
                                     </h2>
                                 </div>
@@ -48,21 +48,21 @@ const AboutUs = () => {
                         </div>
 
                         <div className="max-w-xl space-y-12">
-                            <p className="text-xl md:text-2xl text-[#2D2D2A]/70 font-light leading-relaxed tracking-tight border-l-4 border-[#8B7E74]/10 pl-10">
+                            <p className="text-2xl md:text-3xl text-slate-800 font-light leading-snug tracking-tight border-l-8 border-slate-900/10 pl-12 mt-12">
                                 At Connex, we bridge the gap between architectural vision and emotional resonance. Our systems are more than just luminaires; they are intelligent ecosystems designed to elevate the human experience.
                             </p>
 
                             {/* Technical Attribute Grid */}
                             <div className="grid grid-cols-2 gap-10 pt-10">
-                                <div className="space-y-3">
-                                    <h4 className="text-[10px] uppercase tracking-widest font-black text-[#121212]">Material Integrity</h4>
-                                    <p className="text-xs text-[#2D2D2A]/50 font-light leading-relaxed">
+                                <div className="space-y-4">
+                                    <h4 className="text-[12px] uppercase tracking-widest font-black text-slate-900 underline decoration-cyan-500/20 underline-offset-4">Material Integrity</h4>
+                                    <p className="text-sm text-slate-700 font-medium leading-relaxed">
                                         Crafted from T6 architectural aluminum, our housings provide superior thermal management and structural longevity.
                                     </p>
                                 </div>
-                                <div className="space-y-3">
-                                    <h4 className="text-[10px] uppercase tracking-widest font-black text-[#121212]">Bespoke Optics</h4>
-                                    <p className="text-xs text-[#2D2D2A]/50 font-light leading-relaxed">
+                                <div className="space-y-4">
+                                    <h4 className="text-[12px] uppercase tracking-widest font-black text-slate-900 underline decoration-cyan-500/20 underline-offset-4">Bespoke Optics</h4>
+                                    <p className="text-sm text-slate-700 font-medium leading-relaxed">
                                         Each lens is custom-engineered to eliminate glare and ensure precise beam control across any spatial configuration.
                                     </p>
                                 </div>

@@ -14,12 +14,12 @@ const EngineeringValues = () => {
                 {/* 2. Editorial Header */}
                 <div className="flex flex-col lg:flex-row items-center mb-32 gap-4">
                     <div className="lg:w-1/3 w-full space-y-6 lg:px-4">
-                        <span className="text-[#8B7E74] text-[10px] uppercase tracking-[2em] font-black block">Engineering</span>
-                        <h2 className="text-5xl md:text-6xl lg:text-[5vw] font-serif text-[#121212] tracking-tighter uppercase leading-none">
+                        <span className="text-slate-900 text-[12px] uppercase tracking-[2em] font-black block shadow-sm mb-4">Engineering</span>
+                        <h2 className="text-5xl md:text-7xl lg:text-[6vw] font-serif text-slate-900 tracking-tighter uppercase leading-[0.9]">
                             Luminous <br />
-                            <span className="italic font-light text-[#8B7E74]/20 capitalize">Intelligence.</span>
+                            <span className="italic font-light text-slate-200 capitalize translate-x-4 block">Intelligence.</span>
                         </h2>
-                        <p className="text-sm font-light text-[#2D2D2A]/50 uppercase tracking-widest leading-loose max-w-md border-l-2 border-[#8B7E74]/20 pl-6 mt-8">
+                        <p className="text-lg font-medium text-slate-700 uppercase tracking-widest leading-loose max-w-md border-l-4 border-cyan-500/30 pl-8 mt-12 bg-white/40 p-6 backdrop-blur-sm rounded-r-xl">
                             Our engineering philosophy focuses on the intersection of photometric excellence and minimalist structural design. Every component is laboratory-verified for peak architectural performance.
                         </p>
                     </div>
@@ -52,12 +52,12 @@ const EngineeringValues = () => {
                         </div>
                     </div>
                     <div className="lg:w-1/3 w-full space-y-6 lg:px-4">
-                        <span className="text-[#8B7E74] text-[10px] uppercase tracking-[2em] font-black block">Discover</span>
-                        <h2 className="text-5xl md:text-6xl lg:text-[5vw] font-serif text-[#121212] tracking-tighter uppercase leading-none">
+                        <span className="text-slate-900 text-[12px] uppercase tracking-[2em] font-black block shadow-sm mb-4">Discover</span>
+                        <h2 className="text-5xl md:text-7xl lg:text-[6vw] font-serif text-slate-900 tracking-tighter uppercase leading-[0.9]">
                             Signature <br />
-                            <span className="italic font-light text-[#8B7E74]/20 capitalize">Collections.</span>
+                            <span className="italic font-light text-slate-200 capitalize translate-x-4 block">Collections.</span>
                         </h2>
-                        <p className="text-sm font-light text-[#2D2D2A]/50 uppercase tracking-widest leading-loose max-w-md border-l-2 border-[#8B7E74]/20 pl-6 mt-8">
+                        <p className="text-lg font-medium text-slate-700 uppercase tracking-widest leading-loose max-w-md border-l-4 border-cyan-500/30 pl-8 mt-12 bg-white/40 p-6 backdrop-blur-sm rounded-r-xl">
                             Explore our bespoke series of high-frequency luminaires, crafted to transform the emotional frequency of corporate and residential high-end spaces.
                         </p>
                     </div>
@@ -66,10 +66,10 @@ const EngineeringValues = () => {
                 {/* 4. Bottom Technical Footer */}
                 <div className="mt-20 flex justify-between items-center opacity-20">
                     <div className="flex items-center gap-10">
-                        <span className="text-[8px] font-mono text-[#121212] uppercase tracking-[1em]">Auth. Data</span>
-                        <div className="w-40 h-px bg-black" />
+                        <span className="text-[8px] font-mono text-slate-900 uppercase tracking-[1em]">Auth. Data</span>
+                        <div className="w-40 h-px bg-slate-300" />
                     </div>
-                    <span className="text-[10px] font-serif italic uppercase">Laboratory Verified Series</span>
+                    <span className="text-[10px] font-serif italic uppercase text-slate-900">Laboratory Verified Series</span>
                 </div>
             </div>
         </section>

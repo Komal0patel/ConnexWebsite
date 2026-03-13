@@ -1,0 +1,760 @@
+Category,SL No.,Product Name,Product Code,Type,Diameter,Height,Length,Width,Power (W),Lumens (L/W),Mounting,Light Distribution,Light Source,IP,CRI,CCT (K),Comments
+Geometrical Shapes,1,AONA,GS 01 X 03,,300,60,,,20,2000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,1,AONA,GS 01 X 04,,450,60,,,30,3000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,1,AONA,GS 01 X 06,,600,60,,,40,4000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,1,AONA,GS 01 X 09,,900,100,,,60,6000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,1,AONA,GS 01 X 12,,1200,100,,,100,10000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,1,AONA,GS 01 X 15,,1500,150,,,120,12000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,1,AONA,GS 01 X 18,,1800,150,,,150,15000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,1,AONA,GS 01 X 24,,2400,150,,,200,20000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,2,AONA SLIM,GS 1S X 04,,450,40,,,30,3000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,2,AONA SLIM,GS 1S X 06,,600,40,,,40,4000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,2,AONA SLIM,GS 1S X 09,,900,50,,,60,6000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,2,AONA SLIM,GS 1S X 12,,1200,50,,,100,10000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,2,AONA SLIM,GS 1S X 18,,1800,50,,,150,15000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,3,AONA C,GS 02 X 04,,450,60,,,30,2400,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,3,AONA C,GS 02 X 06,,600,60,,,40,3200,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,3,AONA C,GS 02 X 09,,900,60,,,60,4800,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,3,AONA C,GS 02 X 12,,1200,100,,,100,8000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,3,AONA C,GS 02 X 15,,1500,100,,,120,9600,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,3,AONA C,GS 02 X 18,,1800,150,,,150,12000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,3,AONA C,GS 02 X 24,,2400,150,,,200,16000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,4,AONA C SLIM,GS 2S X 04,,450,35,,,30,2400,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,4,AONA C SLIM,GS 2S X 06,,600,35,,,40,3200,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,4,AONA C SLIM,GS 2S X 09,,900,35,,,60,4800,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,4,AONA C SLIM,GS 2S X 12,,1200,50,,,100,8000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,4,AONA C SLIM,GS 2S X 18,,1800,50,,,150,12000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,5,ELIPSA,GS 03 X 03,,300,60,,,20,2000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,5,ELIPSA,GS 03 X 04,,450,60,,,30,3000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,5,ELIPSA,GS 03 X 06,,600,100,,,40,4000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,5,ELIPSA,GS 03 X 09,,900,100,,,60,6000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,5,ELIPSA,GS 03 X 12,,1200,100,,,100,10000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,5,ELIPSA,GS 03 X 15,,1500,150,,,120,12000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,5,ELIPSA,GS 03 X 18,,1800,150,,,150,15000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,5,ELIPSA,GS 03 X 24,,2400,150,,,200,20000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,6,ELIPSA C,GS 04 X 04,,450,60,,,30,2400,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,6,ELIPSA C,GS 04 X 06,,600,60,,,40,3200,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,6,ELIPSA C,GS 04 X 09,,900,60,,,60,4800,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,6,ELIPSA C,GS 04 X 12,,1200,100,,,100,8000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,6,ELIPSA C,GS 04 X 15,,1500,100,,,120,9600,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,6,ELIPSA C,GS 04 X 18,,1800,150,,,150,12000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,6,ELIPSA C,GS 04 X 24,,2400,150,,,200,16000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,7,QUADRAT,GS 05 X 03,,2400,60,300,300,20,2000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,7,QUADRAT,GS 05 X 04,,2400,60,450,450,30,3000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,7,QUADRAT,GS 05 X 06,,2400,100,600,600,40,4000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,7,QUADRAT,GS 05 X 09,,2400,100,900,900,60,6000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,7,QUADRAT,GS 05 X 12,,2400,100,1200,1200,100,10000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,7,QUADRAT,GS 05 X 18,,2400,150,1800,1800,150,15000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,7,QUADRAT,GS 05 X 24,,2400,150,2400,2400,200,20000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,8,QUADRAT C,GS 06 X 04,,2400,60,450,450,30,2400,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,8,QUADRAT C,GS 06 X 06,,2400,60,600,600,40,3200,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,8,QUADRAT C,GS 06 X 09,,2400,100,900,900,60,4800,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,8,QUADRAT C,GS 06 X 12,,2400,100,1200,1200,100,8000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,8,QUADRAT C,GS 06 X 15,,2400,100,1500,1500,120,9600,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,8,QUADRAT C,GS 06 X 18,,2400,150,1800,1800,150,12000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,8,QUADRAT C,GS 06 X 24,,2400,150,2400,2400,200,20000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,9,QUADRAT S,GS 07 X 03,,2400,60,300,300,20,2000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,9,QUADRAT S,GS 07 X 04,,2400,60,450,450,30,3000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,9,QUADRAT S,GS 07 X 06,,2400,100,600,600,40,4000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,9,QUADRAT S,GS 07 X 09,,2400,100,900,900,60,6000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,9,QUADRAT S,GS 07 X 12,,2400,100,1200,1200,100,10000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,9,QUADRAT S,GS 07 X 15,,2400,150,1500,1500,120,12000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,9,QUADRAT S,GS 07 X 18,,2400,150,1800,1800,150,15000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,9,QUADRAT S,GS 07 X 24,,2400,150,2400,2400,200,20000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,10,QUADRAT SC,GS 08 X 04,,2400,60,450,450,30,2400,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,10,QUADRAT SC,GS 08 X 06,,2400,60,600,600,40,3200,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,10,QUADRAT SC,GS 08 X 09,,2400,100,900,900,60,4800,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,10,QUADRAT SC,GS 08 X 12,,2400,100,1200,1200,100,8000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,10,QUADRAT SC,GS 08 X 15,,2400,150,1500,1500,120,96000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,10,QUADRAT SC,GS 08 X 18,,2400,150,1800,1800,150,12000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,10,QUADRAT SC,GS 08 X 24,,2400,150,2400,2400,200,20000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,11,AAYATA,GS 09 X 06,,2400,60,600,300,40,4000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,11,AAYATA,GS 09 X 09,,2400,100,900,600,60,6000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,11,AAYATA,GS 09 X 12,,2400,100,1200,900,100,10000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,11,AAYATA,GS 09 X 18,,2400,150,1800,1200,150,15000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,11,AAYATA,GS 09 X 24,,2400,150,2400,1800,200,20000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,12,AAYATA C,GS 10 X 06,,2400,60,600,300,40,3200,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,12,AAYATA C,GS 10 X 09,,2400,60,900,600,60,4800,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,12,AAYATA C,GS 10 X 12,,2400,100,1200,900,100,8000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,12,AAYATA C,GS 10 X 18,,2400,150,1800,1200,150,12000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,12,AAYATA C,GS 10 X 24,,2400,150,2400,1800,200,16000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,13,AAYATA S,GS 11 X 06,,2400,60,600,300,40,4000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,13,AAYATA S,GS 11 X 09,,2400,60,900,600,60,6000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,13,AAYATA S,GS 11 X 12,,2400,100,1200,900,100,10000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,13,AAYATA S,GS 11 X 18,,2400,150,1800,1200,150,15000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,13,AAYATA S,GS 11 X 24,,2400,150,2400,1800,200,20000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,14,AAYATA SC,GS 12 X 06,,2400,60,600,300,40,3200,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,14,AAYATA SC,GS 12 X 09,,2400,60,900,600,60,4800,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,14,AAYATA SC,GS 12 X 12,,2400,100,1200,900,100,8000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,14,AAYATA SC,GS 12 X 18,,2400,150,1800,1200,150,12000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,14,AAYATA SC,GS 12 X 24,,2400,150,2400,1800,200,16000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,15,TREKANT,GS 13 X 03,,2400,60,300,All Sides,20,2000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,15,TREKANT,GS 13 X 04,,2400,60,450,All Sides,30,3000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,15,TREKANT,GS 13 X 06,,2400,100,600,All Sides,40,4000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,15,TREKANT,GS 13 X 09,,2400,100,900,All Sides,60,6000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,15,TREKANT,GS 13 X 12,,2400,100,1200,All Sides,100,10000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,15,TREKANT,GS 13 X 18,,2400,150,1800,All Sides,150,15000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,15,TREKANT,GS 13 X 24,,2400,150,2400,All Sides,200,20000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,16,TREKANT C,GS 14 X 04,,2400,60,450,All Sides,30,2400,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,16,TREKANT C,GS 14 X 06,,2400,60,600,All Sides,40,3200,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,16,TREKANT C,GS 14 X 09,,2400,100,900,All Sides,60,4800,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,16,TREKANT C,GS 14 X 12,,2400,100,1200,All Sides,100,8000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,16,TREKANT C,GS 14 X 18,,2400,150,1800,All Sides,150,12000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,16,TREKANT C,GS 14 X 24,,2400,150,2400,All Sides,200,16000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,17,TREKANT S,GS 15 X 03,,2400,60,300,All Sides,20,2000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,17,TREKANT S,GS 15 X 04,,2400,60,450,All Sides,30,3000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,17,TREKANT S,GS 15 X 06,,2400,60,600,All Sides,40,4000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,17,TREKANT S,GS 15 X 09,,2400,100,900,All Sides,60,6000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,17,TREKANT S,GS 15 X 12,,2400,100,1200,All Sides,100,10000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,17,TREKANT S,GS 15 X 18,,2400,150,1800,All Sides,150,15000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,17,TREKANT S,GS 15 X 24,,2400,150,2400,All Sides,200,20000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,18,TREKANT SC,GS 16 X 04,,2400,60,450,All Sides,30,2400,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,18,TREKANT SC,GS 16 X 06,,2400,60,600,All Sides,40,3200,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,18,TREKANT SC,GS 16 X 09,,2400,100,900,All Sides,60,4800,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,18,TREKANT SC,GS 16 X 12,,2400,100,1200,All Sides,100,8000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,18,TREKANT SC,GS 16 X 18,,2400,150,1800,All Sides,150,12000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,18,TREKANT SC,GS 16 X 24,,2400,150,2400,All Sides,200,16000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,19,FEMKANT,GS 17 X 04,,450,60,,All Sides,30,3000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,19,FEMKANT,GS 17 X 06,,600,60,,All Sides,40,4000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,19,FEMKANT,GS 17 X 09,,900,100,,All Sides,60,6000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,19,FEMKANT,GS 17 X 12,,1200,100,,All Sides,100,10000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,19,FEMKANT,GS 17 X 18,,1800,150,,All Sides,150,15000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,19,FEMKANT,GS 17 X 24,,2400,150,,All Sides,200,20000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,20,FEMKANT C,GS 18 X 04,,450,60,,All Sides,30,2400,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,20,FEMKANT C,GS 18 X 06,,600,60,,All Sides,40,3200,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,20,FEMKANT C,GS 18 X 09,,900,100,,All Sides,60,4800,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,20,FEMKANT C,GS 18 X 12,,1200,100,,All Sides,100,8000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,20,FEMKANT C,GS 18 X 18,,1800,150,,All Sides,150,12000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,20,FEMKANT C,GS 18 X 24,,2400,150,,All Sides,200,16000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,21,FEMKANT S,GS 19 X 04,,450,60,,All Sides,30,3000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,21,FEMKANT S,GS 19 X 06,,600,60,,All Sides,40,4000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,21,FEMKANT S,GS 19 X 09,,900,100,,All Sides,60,6000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,21,FEMKANT S,GS 19 X 12,,1200,100,,All Sides,100,10000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,21,FEMKANT S,GS 19 X 18,,1800,150,,All Sides,150,15000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,21,FEMKANT S,GS 19 X 24,,2400,150,,All Sides,200,20000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,22,FEMKANT SC,GS 20 X 04,,450,60,,All Sides,30,2400,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,22,FEMKANT SC,GS 20 X 06,,600,60,,All Sides,40,3200,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,22,FEMKANT SC,GS 20 X 09,,900,100,,All Sides,60,4800,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,22,FEMKANT SC,GS 20 X 12,,1200,100,,All Sides,100,8000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,22,FEMKANT SC,GS 20 X 18,,1800,150,,All Sides,150,12000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,22,FEMKANT SC,GS 20 X 24,,2400,150,,All Sides,200,16000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,23,ESAGONO,GS 21 X 03,,300,60,,All Sides,20,2000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,23,ESAGONO,GS 21 X 04,,450,60,,All Sides,30,3000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,23,ESAGONO,GS 21 X 06,,600,60,,All Sides,40,4000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,23,ESAGONO,GS 21 X 09,,900,100,,All Sides,60,6000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,23,ESAGONO,GS 21 X 12,,1200,100,,All Sides,100,10000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,23,ESAGONO,GS 21 X 18,,1800,150,,All Sides,150,15000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,23,ESAGONO,GS 21 X 24,,2400,150,,All Sides,200,20000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,24,ESAGONO C,GS 22 X 04,,450,60,,All Sides,30,2400,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,24,ESAGONO C,GS 22 X 06,,600,60,,All Sides,40,3200,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,24,ESAGONO C,GS 22 X 09,,900,100,,All Sides,60,4800,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,24,ESAGONO C,GS 22 X 12,,1200,100,,All Sides,100,8000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,24,ESAGONO C,GS 22 X 18,,1800,150,,All Sides,150,12000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,24,ESAGONO C,GS 22 X 24,,2400,150,,All Sides,200,16000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,25,ESAGONO S,GS 23 X 03,,300,60,,All Sides,20,2000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,25,ESAGONO S,GS 23 X 04,,450,60,,All Sides,30,3000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,25,ESAGONO S,GS 23 X 06,,600,60,,All Sides,40,4000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,25,ESAGONO S,GS 23 X 09,,900,100,,All Sides,60,6000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,25,ESAGONO S,GS 23 X 12,,1200,100,,All Sides,100,10000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,25,ESAGONO S,GS 23 X 18,,1800,150,,All Sides,150,15000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,25,ESAGONO S,GS 23 X 24,,2400,150,,All Sides,200,20000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,26,ESAGONO SC,GS 24 X 04,,450,60,,All Sides,30,2400,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,26,ESAGONO SC,GS 24 X 06,,600,60,,All Sides,40,3200,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,26,ESAGONO SC,GS 24 X 09,,900,100,,All Sides,60,4800,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,26,ESAGONO SC,GS 24 X 12,,1200,100,,All Sides,100,8000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,26,ESAGONO SC,GS 24 X 18,,1800,150,,All Sides,150,12000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,26,ESAGONO SC,GS 24 X 24,,2400,150,,All Sides,200,16000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,27,OPO,GS 25 X 04,,450,60,,All Sides,30,2400,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,27,OPO,GS 25 X 06,,600,60,,All Sides,40,3200,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,27,OPO,GS 25 X 09,,900,100,,All Sides,60,4800,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,27,OPO,GS 25 X 12,,1200,100,,All Sides,100,8000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,27,OPO,GS 25 X 18,,1800,150,,All Sides,150,12000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,27,OPO,GS 25 X 24,,2400,150,,All Sides,200,16000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,28,CLOUD,GS 26 X 06,,600,60,,All Sides,40,4000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,28,CLOUD,GS 26 X 09,,900,100,,All Sides,60,6000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,28,CLOUD,GS 26 X 12,,1200,100,,All Sides,100,10000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,28,CLOUD,GS 26 X 18,,1800,150,,All Sides,150,15000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,28,CLOUD,GS 26 X 24,,2400,150,,All Sides,200,20000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,29,CLOUD C,GS 27 X 06,,600,60,,All Sides,40,3200,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,29,CLOUD C,GS 27 X 09,,900,100,,All Sides,60,4800,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,29,CLOUD C,GS 27 X 12,,1200,100,,All Sides,100,8000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,29,CLOUD C,GS 27 X 18,,1800,150,,All Sides,150,12000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,29,CLOUD C,GS 27 X 24,,2400,150,,All Sides,200,16000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,30,LATICA,GS 28 X 06,,600,60,,All Sides,40,3200,Pendant,Direct,LED,,CRI 85,2700 K,
+Geometrical Shapes,30,LATICA,GS 28 X 09,,900,100,,All Sides,60,4800,Pendant,Direct,LED,,CRI 85,3000 K,
+Geometrical Shapes,30,LATICA,GS 28 X 12,,1200,100,,All Sides,100,8000,Pendant,Direct,LED,,CRI 85,4000 K,
+Geometrical Shapes,30,LATICA,GS 28 X 18,,1800,150,,All Sides,150,12000,Pendant,Direct,LED,,CRI 85,5700 K,
+Geometrical Shapes,30,LATICA,GS 28 X 24,,2400,150,,All Sides,200,16000,Pendant,Direct,LED,,CRI 85,6500 K,
+Geometrical Shapes,31,FLORO,GS 29 X 06,,600,60,,All Sides,40,4000,Pendant,Direct,LED,,CRI 85,2700 K,
+Geometrical Shapes,31,FLORO,GS 29 X 09,,900,100,,All Sides,60,6000,Pendant,Direct,LED,,CRI 85,3000 K,
+Geometrical Shapes,31,FLORO,GS 29 X 12,,1200,100,,All Sides,100,10000,Pendant,Direct,LED,,CRI 85,4000 K,
+Geometrical Shapes,31,FLORO,GS 29 X 18,,1800,150,,All Sides,150,15000,Pendant,Direct,LED,,CRI 85,5700 K,
+Geometrical Shapes,31,FLORO,GS 29 X 24,,2400,150,,All Sides,200,20000,Pendant,Direct,LED,,CRI 85,6500 K,
+Geometrical Shapes,32,FERILL,GS 30 X 06,,600,60,,All Sides,40,3200,Pendant / Surface Mounted,Direct,LED,,CRI 85,2700 K,
+Geometrical Shapes,32,FERILL,GS 30 X 09,,900,100,,All Sides,60,4800,Pendant / Surface Mounted,Direct,LED,,CRI 85,3000 K,
+Geometrical Shapes,32,FERILL,GS 30 X 12,,1200,100,,All Sides,100,8000,Pendant / Surface Mounted,Direct,LED,,CRI 85,4000 K,
+Geometrical Shapes,32,FERILL,GS 30 X 18,,1800,150,,All Sides,150,12000,Pendant / Surface Mounted,Direct,LED,,CRI 85,5700 K,
+Geometrical Shapes,32,FERILL,GS 30 X 24,,2400,150,,All Sides,200,16000,Pendant / Surface Mounted,Direct,LED,,CRI 85,6500 K,
+Geometrical Shapes,33,SENTA,GS 31 X 04,,450,60,,All Sides,30,3000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,33,SENTA,GS 31 X 06,,600,60,,All Sides,40,4000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,33,SENTA,GS 31 X 09,,900,60,,All Sides,60,6000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,33,SENTA,GS 31 X 12,,1200,60,,All Sides,100,10000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,33,SENTA,GS 31 X 18,,1800,60,,All Sides,120,12000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,33,SENTA,GS 31 X 24,,2400,60,,All Sides,150,15000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Geometrical Shapes,28,CURVE,GS 26 X 06,,2400,60,600,300,40,4000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,2700 K,
+Geometrical Shapes,28,CURVE,GS 26 X 09,,2400,100,900,600,60,6000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,3000 K,
+Geometrical Shapes,28,CURVE,GS 26 X 12,,2400,100,1200,900,100,10000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,4000 K,
+Geometrical Shapes,28,CURVE,GS 26 X 18,,2400,150,1800,1200,150,15000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,5700 K,
+Geometrical Shapes,28,CURVE,GS 26 X 24,,2400,150,2400,1800,200,20000,Pendant / Surface Mounted,Direct / Indirecr / Both,LED,,CRI 85,6500 K,
+Extruded,1,ROA,EX 1A P 01,,100,150,,,15,1200,Pendant / Surface,Direct,LED Module,40,85,2700,
+Extruded,1,ROA,EX 1A P 02,,100,200,,,15,1200,Pendant / Surface,Direct,LED Module,40,85,3000,
+Extruded,1,ROA,EX 1A P 03,,100,300,,,15,1200,Pendant / Surface,Direct,LED Module,40,85,4000,
+Extruded,1,ROA,EX 1B P 01,,150,150,,,20,1600,Pendant / Surface,Direct,LED Module,40,85,5700,
+Extruded,1,ROA,EX 1B P 02,,150,200,,,20,1600,Pendant / Surface,Direct,LED Module,40,85,6500,
+Extruded,1,ROA,EX 1B P 03,,150,300,,,20,1600,Pendant / Surface,Direct,LED Module,40,85,6500,
+Extruded,2,KORA,EX 2A X 03,,100,300,,,15,1200,Pendant,Direct,LED Module,40,85,2700,
+Extruded,2,KORA,EX 2A X 04,,100,450,,,15,1200,Pendant,Direct,LED Module,40,85,3000,
+Extruded,3,KORA,EX 2B X 03,,100,300,,,15,1200,Pendant,Direct,LED Module,40,85,2700,
+Extruded,3,KORA,EX 2B X 04,,100,450,,,15,1200,Pendant,Direct,LED Module,40,85,3000,
+Extruded,4,KORA,EX 2C X 03,,100,300,,,15,1200,Pendant,Direct,LED Module,40,85,2700,
+Extruded,4,KORA,EX 2C X 04,,100,450,,,15,1200,Pendant,Direct,LED Module,40,85,3000,
+Extruded,5,ROA SLIM,EX 3A P 03,,50,300,,,10,700,Pendant,Direct,LED Module,40,85,2700,
+Extruded,5,ROA SLIM,EX 3A P 04,,50,450,,,10,700,Pendant,Direct,LED Module,40,85,3000,
+Extruded,5,ROA SLIM,EX 3A P 06,,50,600,,,10,700,Pendant,Direct,LED Module,40,85,4000,
+Extruded,5,ROA SLIM,EX 3A P 09,,50,900,,,10,700,Pendant,Direct,LED Module,40,85,5700,
+Extruded,6,ROA HEXA,EX 3B X 03,,50,300,,,10,700,Pendant,Direct,LED Module,40,85,2700,
+Extruded,6,ROA HEXA,EX 3B X 04,,50,450,,,10,700,Pendant,Direct,LED Module,40,85,3000,
+Extruded,6,ROA HEXA,EX 3B X 06,,50,600,,,10,700,Pendant,Direct,LED Module,40,85,4000,
+Extruded,6,ROA HEXA,EX 3B X 09,,50,900,,,10,700,Pendant,Direct,LED Module,40,85,5700,
+Extruded,7,ROA BLOCK,EX 3C X 03,,50,300,50,50,10,700,Pendant,Direct,LED Module,40,85,2700,
+Extruded,7,ROA BLOCK,EX 3C X 04,,50,450,,50,10,700,Pendant,Direct,LED Module,40,85,3000,
+Extruded,7,ROA BLOCK,EX 3C X 06,,50,600,,50,10,700,Pendant,Direct,LED Module,40,85,4000,
+Extruded,7,ROA BLOCK,EX 3C X 09,,50,900,,50,10,700,Pendant,Direct,LED Module,40,85,5700,
+Extruded,8,SPIKE,EX 04 P05,,30,500,,50,5,200,Pendant,Direct,LED Module,40,85,2700,
+Extruded,8,SPIKE,EX 04 P07,,30,750,,50,5,200,Pendant,Direct,LED Module,40,85,3000,
+Extruded,8,SPIKE,EX 04 P10,,30,1000,,50,5,200,Pendant,Direct,LED Module,40,85,4000,
+Extruded,9,TAS,EX 03 X,,73,100,,50,12,,30 DEGREE BEAM ANGLE,Direct,TEMPORARILY REMOVED,40,85,6500,
+Extruded,10,SHELL,EX 04 X,,100,150,,50,20,,40 DEGREE BEAM ANGLE,Direct,TEMPORARILY REMOVED,40,85,6500,
+Fabricated Designer Shapes,1,GIANT DRUM,DS 01 P 12,,1200,200 to 600,,,60,4800,Pendant,Direct,LED Module,40,85,2700,
+Fabricated Designer Shapes,1,GIANT DRUM,DS 01 P 15,,1500,200 to 600,,,80,6400,Pendant,Direct,LED Module,40,85,3000,
+Fabricated Designer Shapes,1,GIANT DRUM,DS 01 P 18,,1800,200 to 600,,,100,8000,Pendant,Direct,LED Module,40,85,4000,
+Fabricated Designer Shapes,1,GIANT DRUM,DS 01 P 21,,2100,200 to 600,,,120,9600,Pendant,Direct,LED Module,40,85,5700,
+Fabricated Designer Shapes,1,GIANT DRUM,DS 01 P 24,,2400,200 to 600,,,140,11200,Pendant,Direct,LED Module,40,85,6500,
+Fabricated Designer Shapes,2,CONICAL CLUSTER,DS 02 P 10,Conicals (Linear),2400,150,1000,700,40,3200,Pendant,Direct,LED Module,40,85,6500,Including Conicals
+Fabricated Designer Shapes,2,CONICAL CLUSTER,DS 02 P 15,Conicals (Linear),2400,150,1500,700,60,4800,Pendant,Direct,LED Module,40,85,6500,Including Conicals
+Fabricated Designer Shapes,2,CONICAL CLUSTER,DS 02 P 20,Conicals (Linear),2400,150,2000,700,80,6400,Pendant,Direct,LED Module,40,85,6500,Including Conicals
+Fabricated Designer Shapes,2,CONICAL CLUSTER,DS 02 P 30,Conicals (Linear),2400,150,3000,700,120,9600,Pendant,Direct,LED Module,40,85,6500,Including Conicals
+Fabricated Designer Shapes,2,CONICAL CLUSTER,DS 03 P 06,Conicals (Round),600,150,,700,60,4800,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,2,CONICAL CLUSTER,DS 03 P 09,Conicals (Round),900,150,,700,80,6400,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,2,CONICAL CLUSTER,DS 03 P 12,Conicals (Round),1200,150,,700,120,9600,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,3,PYRAMID,DS 04 P 04,Conicals (Round),400,150,,700,20,1600,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,3,PYRAMID,DS 04 P 06,Conicals (Round),600,150,,700,30,2400,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,3,PYRAMID,DS 04 P 09,Conicals (Round),900,150,,700,40,3200,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,4,CASO,DS 05 P 03,Bulbs,900,300,300,200,8,320,Pendant,Direct,Filament Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,4,CASO,DS 05 P 04,Bulbs,900,300,450,200,16,640,Pendant,Direct,Filament Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,4,CASO,DS 05 P 06,Bulbs,900,300,600,200,24,960,Pendant,Direct,Filament Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,4,CASO,DS 05 P 07,Bulbs,900,300,750,200,32,1280,Pendant,Direct,Filament Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,5,KON,DS 06 P 03,Bulbs,300,200,,200,9,540,Pendant,Direct,LED Lamp,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,5,KON,DS 06 P 04,Bulbs,450,300,,200,12,720,Pendant,Direct,LED Lamp,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,5,KON,DS 06 P 06,Bulbs,600,400,,200,15,900,Pendant,Direct,LED Lamp,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,6,KRADO,DS 07 P 06,Bulbs,600,200,,200,30,2400,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,6,KRADO,DS 07 P 08,Bulbs,800,200,,200,40,3200,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,6,KRADO,DS 07 P 10,Bulbs,1000,250,,200,60,4800,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,7,TAGLIO,DS 8A X 02,Bulbs,250,330,,200,12,960,Pendant,Direct,LED Lamp,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,7,TAGLIO,DS 8B X 02,Bulbs,250,330,,200,12,960,Pendant,Direct,LED Lamp,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,7,TAGLIO,DS 8C X 02,Bulbs,250,330,,200,12,960,Pendant,Direct,LED Lamp,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,7,TAGLIO,DS 8D X 02,Bulbs,250,330,,200,12,960,Pendant,Direct,LED Lamp,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,8,PASSO,DS 09 P 06,Bulbs,600,450,,200,10,700,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,9,PENTA DOME,DS 10 P 05,Bulbs,572,245,,200,30,2400,Pendant,Direct,LED Module / LED Lamp,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,9,PENTA DOME,DS 10 P 07,Bulbs,750,320,,200,40,3200,Pendant,Direct,LED Module / LED Lamp,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,10,BIRDIE,DS 11 P,Bulbs,750,165,615,100,5,300,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,10,BIRDIE, DS 11 P ,Bulbs,750,165,,100,,,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,11,BIRDIE,DS 12 P,Bulbs,750,160,400,80,5,300,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,11,BIRDIE,DS 12 P,Bulbs,750,160,,80,,,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,12,FALCON,DS 13 P 09,Bulbs,75,160,900,80,12,960,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,12,FALCON,DS 13 P 12,Bulbs,100,160,1200,80,20,1600,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,13,HAT,DS 14 P 06,Bulbs,600,150,,80,10,700,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,13,HAT,DS 14 P 08,Bulbs,800,150,,80,15,1050,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,13,HAT,DS 14 P 10,Bulbs,1000,150,,80,20,1400,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,14,FILO,DS 15 P 02,Bulbs,220,230,,80,9,540,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,15,FILO,DS 16 P 02,Bulbs,220,240,,80,9,540,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,16,FILO,DS 17 P 02,Bulbs,220,250,,80,9,540,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,17,FILO,DS 18 P 01,Bulbs,150,250,,80,9,540,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,18,FILO,DS 19 P 03,Bulbs,300,150,,80,9,540,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,18,FILO,DS 19 P 04,Bulbs,450,225,,80,12,720,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,18,FILO,DS 19 P 06,Bulbs,600,300,,80,15,900,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,19,FILO,DS 20 P 04,Bulbs,450,400,,80,9,540,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,19,FILO,DS 20 P 06,Bulbs,600,600,,80,12,720,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,19,FILO,DS 20 P 09,Bulbs,900,900,,80,15,900,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,20,FILO,DS 21 P 04,Bulbs,450,225,,80,9,540,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,20,FILO,DS 21 P 06,Bulbs,600,300,,80,12,720,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,20,FILO,DS 21 P 09,Bulbs,900,450,,80,15,900,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,21,FILO,DS 22 P 03,Bulbs,300,150,,80,9,540,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,21,FILO,DS 22 P 04,Bulbs,450,225,,80,12,720,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,21,FILO,DS 22 P 06,Bulbs,600,300,,80,15,900,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,22,TAWB,DS 23 P 03,Bulbs,300,300,,80,9,540,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,22,TAWB,DS 23 P 04,Bulbs,450,450,,80,12,720,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,22,TAWB,DS 23 P 06,Bulbs,600,600,,80,15,900,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,23,TAWB WIDE,DS 24 P 02,Bulbs,200,200,,80,8,320,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,23,TAWB WIDE,DS 24 P 03,Bulbs,300,300,,80,8,320,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,23,TAWB WIDE,DS 24 P 04,Bulbs,400,400,,80,8,320,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,24,CAGE,DS 25 P 03,Bulbs,300,600,,80,20,1400,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,24,CAGE,DS 25 P 04,Bulbs,450,900,,80,30,2100,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,25,CAGE,DS 26 P 03,Bulbs,300,450,,80,20,1200,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,25,CAGE,DS 26 P 04,Bulbs,450,650,,80,30,1800,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,25,CAGE,DS 26 P 06,Bulbs,600,900,,80,40,2400,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,26,CORAL,DS 27 P 03,Bulbs,300,290,,80,15,900,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,26,CORAL,DS 27 P 04,Bulbs,450,435,,80,20,1200,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,26,CORAL,DS 27 P 06,Bulbs,600,580,,80,30,1800,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,27,CORAL,DS 28 P 03,Bulbs,300,200,,80,15,900,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,27,CORAL,DS 28 P 04,Bulbs,450,300,,80,20,1200,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,27,CORAL,DS 28 P 06,Bulbs,600,450,,80,30,1800,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,28,CORAL,DS 29 P 03,Bulbs,300,300,,80,15,900,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,28,CORAL,DS 29 P 04,Bulbs,450,450,,80,20,1200,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,28,CORAL,DS 29 P 06,Bulbs,600,600,,80,30,1800,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,29,TURBO,DS 30 P 06,Bulbs,600,200,,80,15,1200,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,29,TURBO,DS 30 P 09,Bulbs,900,300,,80,20,1600,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,29,TURBO,DS 30 P 12,Bulbs,1200,400,,80,30,2400,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,30,COLLO,DS 31 P 04,Bulbs,450,650,,80,20,1600,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,31,CONNECT,DS 32 P 01,Bulbs,450,100,865,500,30,2400,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,31,CONNECT,DS 32 X 02,Bulbs,450,100,500,430,30,2400,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,31,CONNECT,DS 32 X 03,Bulbs,1000,100,,430,20,1600,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,31,CONNECT,DS 32 X 04,Bulbs,1000,100,,430,10,800,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,32,AMOEBA,DS 33 P 01,Bulbs,1000,200,800,800,35,2800,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,32,AMOEBA,DS 33 X 02,Bulbs,1000,200,750,525,40,3200,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,32,AMOEBA,DS 33 X 03,Bulbs,1000,200,800,290,25,2000,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,32,AMOEBA,DS 33 X 04,Bulbs,1000,200,740,470,32,2560,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,32,AMOEBA,DS 33 X 05,Bulbs,1000,200,850,480,40,3200,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,32,AMOEBA,DS 33 X 06,Bulbs,1000,200,550,420,25,2000,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,CELA,DS 34 P 04,Bulbs,450,250,,420,24,960,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,CELA,DS 34 P 06,Bulbs,600,300,,420,32,1280,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,CELA,DS 34 P 09,Bulbs,900,450,,420,32,1280,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,LAG,DS 15 P 03,Bulbs,300,200,,420,9,540,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,LAG,DS 15 P 04,Bulbs,450,350,,420,12,720,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,LAG,DS 15 P 06,Bulbs,600,400,,420,15,900,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,LAG,DS 21 P 02,Bulbs,240,450,,420,9,540,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,LAG,DS 22 P 02,Bulbs,260,350,,420,9,540,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,LAG,DS 23 P 03,Bulbs,300,320,,420,9,540,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,SAUCER,DS 24 P 04,Bulbs,450,185,,420,10,600,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,SAUCER,DS 24 P 06,Bulbs,600,250,,420,10,600,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,SAUCER,DS 24 P 07,Bulbs,750,310,,420,10,600,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,BARREL,DS 26 P 03,Bulbs,300,750,,420,10,600,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,BARREL,DS 27 P 04,Bulbs,400,600,,420,10,600,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,BARREL,DS 28 P 05,Bulbs,500,450,,420,10,600,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,BARREL,DS 29 P 06,Bulbs,600,300,,420,10,600,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,CAGE,DS 30 P 03,Bulbs,300,500,,420,27,1620,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,CAGE,DS 30 P 04,Bulbs,450,750,,420,36,2160,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,CAGE,DS 30 P 06,Bulbs,600,1000,,420,45,2700,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,CRYSTAL,DS 40 P 03,Bulbs,300,300,,420,12,720,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,CRYSTAL,DS 40 P 04,Bulbs,450,450,,420,15,900,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,CRYSTAL,DS 40 P 06,Bulbs,600,600,,420,20,1200,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,CRYSTAL,DS 41 P 02,Bulbs,200,300,,420,15,900,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,CRYSTAL,DS 41 P 03,Bulbs,300,450,,420,20,1200,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,CRYSTAL,DS 41 P 04,Bulbs,400,600,,420,30,1800,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,CRYSTAL,DS 42 P 03,Bulbs,300,300,,420,15,900,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,CRYSTAL,DS 42 P 04,Bulbs,450,450,,420,20,1200,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,33,CRYSTAL,DS 42 P 06,Bulbs,600,600,,420,30,1800,Pendant,Direct,LED Bulb,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,34,CRYSTAL,DS 35 P 03,Bulbs,260,320,,420,,,PENDANT,DIRECT,ACRYLIC,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,34,CRYSTAL,DS 35 P 04,Bulbs,330,420,,420,,,PENDANT,DIRECT,ACRYLIC,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,34,CRYSTAL,DS 36 P 03,Bulbs,300,320,,420,,,PENDANT,DIRECT,ACRYLIC,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,34,CRYSTAL,DS 36 P 04,Bulbs,400,420,,420,,,PENDANT,DIRECT,ACRYLIC,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,34,CRYSTAL,DS 37 P 03,Bulbs,300,320,,420,,,PENDANT,DIRECT,ACRYLIC,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,34,CRYSTAL,DS 37 P 04,Bulbs,400,420,,420,,,PENDANT,DIRECT,ACRYLIC,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,34,CRYSTAL,DS 38 P 03,Bulbs,300,320,,420,,,PENDANT,DIRECT,ACRYLIC,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,34,CRYSTAL,DS 38 P 04,Bulbs,400,420,,420,,,PENDANT,DIRECT,ACRYLIC,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,34,CRYSTAL,DS 39 P 03,Bulbs,300,320,,420,,,PENDANT,DIRECT,ACRYLIC,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,34,CRYSTAL,DS 39 P 04,Bulbs,400,420,,420,,,PENDANT,DIRECT,ACRYLIC,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,34,CRYSTAL,DS 40 P 03,Bulbs,300,320,,420,,,PENDANT,DIRECT,ACRYLIC,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,34,CRYSTAL,DS 40 P 04,Bulbs,400,420,,420,,,PENDANT,DIRECT,ACRYLIC,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,34,CRYSTAL,DS 41 P 03,Bulbs,300,320,,420,,,PENDANT,DIRECT,ACRYLIC,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,34,CRYSTAL,DS 41 P 04,Bulbs,400,420,,420,,,PENDANT,DIRECT,ACRYLIC,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,35,LIGHTRACK SYSTEMS,DS 42 P 15,Bulbs,400,420,,420,,,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,35,LIGHTRACK SYSTEMS,DS 42 P 18,Bulbs,400,420,,420,,,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,35,LIGHTRACK SYSTEMS,DS 42 P 20,Bulbs,400,420,,420,,,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Fabricated Designer Shapes,35,GOLD FINISH CAGE,DS 43,Bulbs,400,420,,420,,,Pendant,Direct,LED Module,40,85,6500,Excluding Conicals
+Spinned,1,DOME,SP 01 P 04,,400,200,,,20,1800,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,1,DOME,SP 01 P 05,,500,250,,,30,2700,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,1,DOME,SP 01 P 06,,600,300,,,40,3600,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,2,ROLO,SP 02 P 03,,300,200,,,20,1800,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,2,ROLO,SP 02 P 04,,400,275,,,30,2700,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,3,TURNO,SP 03 P 03,,350,300,,,20,1800,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,4,SPINO,SP 04 P 04,,400,225,,,30,2700,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,5,MUTER,SP 05 P 04,,420,260,,,30,2400,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,6,GIRO,SP 06 P 02,,135 / 200,120,,,15,1200,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,6,GIRO,SP 06 P 03,,200 / 300,200,,,20,1600,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,6,GIRO,SP 06 P 04,,450,300,,,30,2400,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,6,GIRO,PC5 - SP6A,,450,300,,,,,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,7,MINO,SP 07 P 02,,250 / 270,200,,,20,1600,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,8,QUAY,SP 08 P 03,,300,350,,,20,1800,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,8,QUAY,SP 08 P 06,,600,550,,,40,3600,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,9,LIFA,SP 09 P 03,,350 / 315,170,,,10,600,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,10,FUNELO,SP 10 P 01,,170,200,,,10,600,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,11,SIRO,SP 11 P 03,,300,350,,,20,1800,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,12,BELL,SP 12 P 02,,220,210,,,15,1350,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,13,ORA,SP 13 P 02,,200,450,,,15,1200,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,14,ORA,SP 14 P 02,,180,200,,,15,1200,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,13,SOLY,SP 13 P 03,,300,450,,,20,1800,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,11,ARA,SP 11 P 04,,460,200,,,30,2700,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,12,OZI,SP 12 P 03,,300,200,,,20,1600,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,12,OZI,SP 12 P 04,,450,300,,,30,2400,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,14,MIRO,SP 14 P 04,,450,200,,,35,1400,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,15,STILO,SP 15 P 02,,250,300,,,20,1800,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,15,STILO,SP 15 P 04,,400,475,,,30,2700,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,16,STILO,SP 16 P 03,,300,350,,,20,1800,Pendant,Direct,LED Module /      LED Bulb,,,,
+Spinned,5,ROTO,SP 05 P 03,,150 / 300,450,,,20,1800,Pendant,Direct,LED Module /      LED Bulb,,,,
+Linear,1,LINIO,LN 1A X 06,,,40,600,40,15,1200,Pendant / Surface,Direct / Indirect / Both,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,1,LINIO,LN 1A X 12,,,40,1200,40,30,2400,Pendant / Surface,Direct / Indirect / Both,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,1,LINIO,LN 1A X 18,,,40,1800,40,45,3600,Pendant / Surface,Direct / Indirect / Both,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,1,LINIO,LN 1A X 24,,,40,2400,40,60,4800,Pendant / Surface,Direct / Indirect / Both,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,1,LINIO,LN 1B X 06,,,70,600,50,15,1500,Pendant / Surface,Direct / Indirect / Both,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,1,LINIO,LN 1B X 12,,,70,1200,50,30,3000,Pendant / Surface,Direct / Indirect / Both,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,1,LINIO,LN 1B X 18,,,70,1800,50,45,4500,Pendant / Surface,Direct / Indirect / Both,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,1,LINIO,LN 1B X 24,,,70,2400,50,60,6000,Pendant / Surface,Direct / Indirect / Both,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,1,LINIO (Direct Indirect),LN 1C X 06,Code based on Direct / Indirect LD,,85,600,35,15,1200,Pendant / Surface,Direct / Indirect / Both,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,1,LINIO (Direct Indirect),LN 1C X 12,Code based on Direct / Indirect LD,,85,1200,35,30,2400,Pendant / Surface,Direct / Indirect / Both,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,1,LINIO (Direct Indirect),LN 1C X 18,Code based on Direct / Indirect LD,,85,1800,35,45,3600,Pendant / Surface,Direct / Indirect / Both,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,1,LINIO (Direct Indirect),LN 1C X 24,Code based on Direct / Indirect LD,,85,2400,35,60,4800,Pendant / Surface,Direct / Indirect / Both,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,1,LINIO (Direct Indirect),LN 1D X 06,Code based on Direct / Indirect LD,,100,600,50,20,2000,Pendant / Surface,Direct / Indirect / Both,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,1,LINIO (Direct Indirect),LN 1D X 12,Code based on Direct / Indirect LD,,100,1200,50,40,4000,Pendant / Surface,Direct / Indirect / Both,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,1,LINIO (Direct Indirect),LN 1D X 18,Code based on Direct / Indirect LD,,100,1800,50,60,6000,Pendant / Surface,Direct / Indirect / Both,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,1,LINIO (Direct Indirect),LN 1D X 24,Code based on Direct / Indirect LD,,100,2400,50,80,8000,Pendant / Surface,Direct / Indirect / Both,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,2,W,LN 02 X,Code based on Direct / Indirect LD,,70,1800,50,50,2500,Pendant / Surface,Direct,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,2,W,,Code based on Direct / Indirect LD,,40,1800,40,50,4000,Pendant / Surface,Direct,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,2,W,LN 02 X 09,Code based on Direct / Indirect LD,,40,900,40,30,2400,Pendant / Surface,Direct,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,2,W,LN 02 X 18,Code based on Direct / Indirect LD,,40,1800,40,50,4000,Pendant / Surface,Direct,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,2,W,LN 02 X 27,Code based on Direct / Indirect LD,,40,2700,40,80,6400,Pendant / Surface,Direct,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,3,SERPANT,LN 5B X 24,Arc,R1500,40,,40,40,2800,Pendant / Surface,Direct,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,3,SERPANT,LN 5A X 12,Arc,R1500,40,,40,20,1400,Pendant / Surface,Direct,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,3,SERPANT,LN 4B X 24,Arc,R3000,40,,40,40,2800,Pendant / Surface,Direct,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,3,SERPANT,LN 4A X 24,Arc,R3000,40,,40,20,1400,Pendant / Surface,Direct,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,3,SERPANT,LN 3A X 18,Arc,R4800,40,,40,30,2100,Pendant / Surface,Direct,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,4,LINIO CURVE,LN 06 X 06,Arc,R4800,40,,40,,,Pendant / Surface,Direct,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,4,LINIO CURVE,LN 06 X 12,Arc,R4800,40,,40,,,Pendant / Surface,Direct,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,4,LINIO CURVE,LN 06 X 18,Arc,R4800,40,,40,,,Pendant / Surface,Direct,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,4,LINIO CURVE,LN 06 X 24,Arc,R4800,40,,40,,,Pendant / Surface,Direct,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,4,WAVE,LN 6A X 12,Arc,R4800,40,1200*1024,40,60,4800,Pendant / Surface,Direct,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,5,WAVE,LN 6B X 12,Arc,R4800,40,1200*991,40,60,4800,Pendant / Surface,Direct,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,6,WAVE,LN 6C X 12,Arc,R4800,40,1200*900,40,60,4800,Pendant / Surface,Direct,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,7,WAVE,LN 6D X 12,Arc,R4800,40,1200*1000,40,60,4800,Pendant / Surface,Direct,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,4,WAVE,LN 6A X 12,Arc,R4800,40,1200*1024,40,60,4800,Pendant / Surface,Direct,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,5,WAVE,LN 6B X 12,Arc,R4800,40,1200*991,40,60,4800,Pendant / Surface,Direct,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,6,WAVE,LN 6C X 12,Arc,R4800,40,1200*900,40,60,4800,Pendant / Surface,Direct,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Linear,7,WAVE,LN 6D X 12,Arc,R4800,40,1200*1000,40,60,4800,Pendant / Surface,Direct,LED Module,,,,50mm Width Driver can be kept inside the extrusion
+Acrylic,1,GLO,AC 1A P 06,,75,,600,,15,900,Pendant,Direct,LED Module,,,,
+Acrylic,1,GLO,AC 1A P 09,,75,,900,,20,1200,Pendant,Direct,LED Module,,,,
+Acrylic,1,GLO,AC 1A P 12,,75,,1200,,30,1800,Pendant,Direct,LED Module,,,,
+Acrylic,1,GLO,AC 1A P 15,,75,,1500,,40,2400,Pendant,Direct,LED Module,,,,
+Acrylic,1,GLO,AC 1A P 18,,75,,1800,,50,3000,Pendant,Direct,LED Module,,,,
+Acrylic,1,GLO,AC 1B P 06,,100,,600,,15,900,Pendant,Direct,LED Module,,,,
+Acrylic,1,GLO,AC 1B P 09,,100,,900,,20,1200,Pendant,Direct,LED Module,,,,
+Acrylic,1,GLO,AC 1B P 12,,100,,1200,,30,1800,Pendant,Direct,LED Module,,,,
+Acrylic,1,GLO,AC 1B P 15,,100,,1500,,40,2400,Pendant,Direct,LED Module,,,,
+Acrylic,1,GLO,AC 1B P 18,,100,,1800,,50,3000,Pendant,Direct,LED Module,,,,
+Acrylic,2,GLO MINI,AC 2A P 01,,30,150,,,10,500,Pendant,Direct,LED Module,,,,
+Acrylic,2,GLO MINI,AC 2A P 03,,30,300,,,15,750,Pendant,Direct,LED Module,,,,
+Acrylic,2,GLO MINI,AC 2B P 01,,50,150,,,10,500,Pendant,Direct,LED Module,,,,
+Acrylic,2,GLO MINI,AC 2B P 03,,50,300,,,15,750,Pendant,Direct,LED Module,,,,
+Acrylic,2,GLO MINI,AC 2C P 01,,75,150,,,15,750,Pendant,Direct,LED Module,,,,
+Acrylic,2,GLO MINI,AC 2C P 03,,75,300,,,20,1000,Pendant,Direct,LED Module,,,,
+Acrylic,3,GLO MINI,AC 2D P 01,,50,150,,,10,600,Pendant,Direct,LED Module,,,,
+Acrylic,3,GLO MINI,AC 2D P 03,,75,300,,,15,900,Pendant,Direct,LED Module,,,,
+Acrylic,3,GLO MINI,AC 2D P 04,,100,450,,,20,1200,Pendant,Direct,LED Module,,,,
+Acrylic,3,GLO MINI,AC 2D P 06,,150,600,,,30,1800,Pendant,Direct,LED Module,,,,
+Acrylic,4,ARETO,AC 3A P 09,,50,600,900,,20,1200,Pendant,Direct,LED Module,,,,
+Acrylic,4,ARETO,AC 3A P 12,,50,600,1200,,40,2400,Pendant,Direct,LED Module,,,,
+Acrylic,4,ARETO,AC 3B P 09,,75,600,900,,20,1200,Pendant,Direct,LED Module,,,,
+Acrylic,4,ARETO,AC 3B P 12,,75,600,1200,,40,2400,Pendant,Direct,LED Module,,,,
+Acrylic,5,POLA,AC 04 P 02,,250,105,,,10,500,Pendant,Direct,LED Module,,,,
+Acrylic,5,POLA,AC 04 P 05,,500,105,,,20,1000,Pendant,Direct,LED Module,,,,
+Acrylic,6,BAND,AC 05 (5A) P 03,,300,125,,30,20,1200,Pendant,Direct,LED Module,,,,
+Acrylic,6,BAND,AC 05 P 04,,450,125,,30,30,1800,Pendant,Direct,LED Module,,,,
+Acrylic,6,BAND,AC 05 P 06,,600,125,,30,40,2400,Pendant,Direct,LED Module,,,,
+Acrylic,6,BAND,AC 05 P 09,,900,125,,30,60,3600,Pendant,Direct,LED Module,,,,
+Acrylic,6,BAND,AC 05 P 12,,1200,125,,30,80,4800,Pendant,Direct,LED Module,,,,
+Acrylic,6,BAND,AC 5B P 15,,150,125,,30,5,300,Pendant,Direct,LED Module,,,,
+Acrylic,6,BAND,AC 5B P 03,,300,125,,30,10,600,Pendant,Direct,LED Module,,,,
+Acrylic,6,BAND,AC 5B P 45,,450,125,,30,15,900,Pendant,Direct,LED Module,,,,
+Acrylic,6,BAND,AC 5B P 06,,600,125,,30,20,1200,Pendant,Direct,LED Module,,,,
+Acrylic,6,BAND,AC 5B P 09,,900,125,,30,30,1800,Pendant,Direct,LED Module,,,,
+Acrylic,6,BAND,AC 5B P 12,,1200,125,,30,40,2400,Pendant,Direct,LED Module,,,,
+Acrylic,7,LAT,AC 06 W 03,Acrylic,1200,380,95,30,15,750,Wall,Direct,LED Module,,,,
+Acrylic,7,LAT,AC 06 W 05,Acrylic,1200,380,95,50,15,750,Wall,Direct,LED Module,,,,
+Acrylic,8,CUE,AC 07 S 03,Acrylic,300,150,,50,15,1200,Surface,Direct,LED Module,,,,
+Acrylic,8,CUE,AC 07 S 04,Acrylic,450,150,,50,20,1600,Surface,Direct,LED Module,,,,
+Acrylic,9,BOLARD,AC 08 F 06,Acrylic,100,600,,50,10,600,Floor,Direct,LED Module,,,,
+Acrylic,9,BOLARD,AC 08 F 09,Acrylic,100,900,,50,15,900,Floor,Direct,LED Module,,,,
+Acrylic,9,BOLARD,AC 08 F 15,Acrylic,100,1500,,50,20,1200,Floor,Direct,LED Module,,,,
+Acrylic,9,BOLARD,AC 08 F 20,Acrylic,100,2000,,50,30,1800,Floor,Direct,LED Module,,,,
+Acrylic,10,BLANC,AC 9A X 06,Acrylic,600,100,,50,30,2100,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Acrylic,10,BLANC,AC 9A X 09,Acrylic,900,100,,50,40,2800,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Acrylic,10,BLANC,AC 9A X 12,Acrylic,1200,100,,50,60,4200,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Acrylic,11,BLANC-C,AC 9B X 06,Acrylic,600,100,,150,30,2100,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Acrylic,11,BLANC-C,AC 9B X 09,Acrylic,900,100,,200,40,2800,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Acrylic,11,BLANC-C,AC 9B X 12,Acrylic,1200,100,,200,60,4200,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Acrylic,12,AKRYL,AC 10 P 06,Acrylic,1200,600,1200,1200,30,1500,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Acrylic,12,AKRYL,AC 10 P 09,Acrylic,1200,900,1200,1200,40,2000,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Acrylic,12,AKRYL,AC 10 P 12,Acrylic,1200,1200,1200,1200,60,3000,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Acrylic,9,POSH,AC 08 P 03,Acrylic,320,280,,1200,20,1400,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Acrylic,10,SCONE R,AC 09 W 07 ,Acrylic,75,280,,70,5,250,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Acrylic,10,SCONE R,AC 09 W 15,Acrylic,150,280,,70,10,500,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Acrylic,11,SCONE S,AC 10 W 07,Acrylic,150,75,75,70,5,250,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Acrylic,11,SCONE S,AC 10 W 15,Acrylic,150,150,150,70,10,500,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Acrylic,14,CHAR,AC 13 X 06,Acrylic,150,100,600,600,30,2100,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Acrylic,14,CHAR,,Acrylic,150,200,600,600,,,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Acrylic,14,CHAR,,Acrylic,150,300,600,600,,,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Acrylic,14,CHAR,AC 13 X 09,Acrylic,150,100,900,900,40,2800,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Acrylic,14,CHAR,,Acrylic,150,200,900,900,,,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Acrylic,14,CHAR,,Acrylic,150,300,900,900,,,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Acrylic,14,CHAR,AC 13 X 12,Acrylic,150,100,1200,1200,60,4200,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Acrylic,14,CHAR,,Acrylic,150,200,1200,1200,,,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Acrylic,14,CHAR,,Acrylic,150,300,1200,1200,,,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Acrylic,15,CHAR-C,AC 14 X 06,Acrylic,150,100,600,600,30,2100,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Acrylic,15,CHAR-C,AC 14 X 09,Acrylic,150,100,900,900,40,2800,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Acrylic,15,CHAR-C,AC 14 X 12,Acrylic,150,100,1200,1200,60,4200,Pendant,Direct,LED Module,,,,Power Variation as per Height
+Glass,1,OZO CLUSTER,GL 01 P 18,3 Globes,,250,600,350,30,1800,Pendant,Direct,LED Module,,,,
+Glass,1,OZO CLUSTER,GL 01 P 18,5 Globes,,250,1500,350,50,3000,Pendant,Direct,LED Module,,,,
+Glass,1,OZO CLUSTER,GL 01 P 18,7 Globes,,250,1800,350,70,4200,Pendant,Direct,LED Module,,,,
+Glass,2,DROP,GL 02 P 10,Globe,,275,115,100,8,560,Pendant,Direct & Indirect,LED Module,,,,
+Glass,2,DROP,GL 02 P 15,Globe,,415,175,150,12,840,Pendant,Direct & Indirect,LED Module,,,,
+Glass,3,DROP,GL 02 W 10,Globe,,275,175,138,8,560,Wall,Direct & Indirect,LED Module,,,,
+Glass,3,DROP,GL 02 W 15,Globe,,415,200,188,12,840,Wall,Direct & Indirect,LED Module,,,,
+Glass,4,RUA,GL 3A W 10,Globe,,500,100,320,8,560,Wall,Direct & Indirect,LED Module,,,,
+Glass,4,RUA,GL 3A W 15,Globe,,500,150,365,12,840,Wall,Direct & Indirect,LED Module,,,,
+Glass,4,RUA,WA3A - SW1,Globe,,500,,365,,,Wall,Direct & Indirect,LED Module,,,,
+Glass,5,RUA,GL 3B W 10,Globe,,800,100,780,8,560,Wall,Direct & Indirect,LED Module,,,,
+Glass,5,RUA,GL 3B W 15,Globe,,800,150,805,12,840,Wall,Direct & Indirect,LED Module,,,,
+Glass,6,NEST,GL 04 P 10,Globe,,615,575,100,20,1400,Pendant,Direct,LED Module,,,,
+Glass,7,PEARL,GL 05 T 10,Globe,,500,450,100,15,1050,Table,Direct,LED Module,,,,
+Glass,8,POP,GL 6A W 10 ,Globe,,280,300,140,16,1120,Wall,Direct & Indirect,LED Module,,,,
+Glass,9,POP,GL 6B W 10,Globe,,320,140,100,16,1120,Wall,Direct & Indirect,LED Module,,,,
+Glass,9,POP,GL 6B W 15,Globe,,420,190,150,24,1680,Wall,Direct & Indirect,LED Module,,,,
+Glass,10,POP,GL 6C W 10,Globe,,100,175,135,8,560,Wall,Direct,LED Module,,,,
+Glass,10,POP,GL 6C W 15,Globe,,150,225,185,12,840,Wall,Direct,LED Module,,,,
+Glass,11,POST,GL 07 T 10,Globe,,540,275,150,8,480,Table,Direct,LED Module,,,,Width remains same for both globes as the Base Plate is 150 Dia
+Glass,11,POST,GL 07 T 15,Globe,,540,275,150,12,720,Table,Direct,LED Module,,,,Width remains same for both globes as the Base Plate is 150 Dia
+Glass,12,LY,GL 08 P 02,Globe,250,540,,150,8,360,Pendant,Direct,Filament Bulb,,,,Width remains same for both globes as the Base Plate is 150 Dia
+Glass,12,LY,GL 08 P 03,Globe,300,540,,150,8,360,Pendant,Direct,Filament Bulb,,,,Width remains same for both globes as the Base Plate is 150 Dia
+Glass,12,LY,GL 08 P 04,Globe,450,540,,150,8,360,Pendant,Direct,Filament Bulb,,,,Width remains same for both globes as the Base Plate is 150 Dia
+Glass,13,OVAL,GL 09 X 02,Globe,200,315,,150,12,720,Pendant / Wall,Direct / Indirect,LED Module,,,,Width remains same for both globes as the Base Plate is 150 Dia
+Glass,14,KRYT,GL 10 P 03,Globe,70,305,,150,10,600,Pendant,Direct,LED Module,,,,Width remains same for both globes as the Base Plate is 150 Dia
+Glass,15,KRYT,GL 11 P 03,Globe,70,305,,150,10,600,Pendant,Direct,LED Module,,,,Width remains same for both globes as the Base Plate is 150 Dia
+Glass,9,TROS,GL 05 P 04,Wheel,450,215,,150,28,1960,Pendant,Direct,LED Module,,,,Width remains same for both globes as the Base Plate is 150 Dia
+Glass,9,TROS,GL 05 P 06,Wheel,600,265,,150,36,2520,Pendant,Direct,LED Module,,,,Width remains same for both globes as the Base Plate is 150 Dia
+Glass,1,OZO,GL 01 P 10,100 Dia Globe,600,250,250,100,16,1120,Pendant,Direct,LED Module,,,,Width remains same for both globes as the Base Plate is 150 Dia
+Glass,1,OZO,GL 01 P 15,150 Dia Globe,600,400,350,150,24,1680,Pendant,Direct,LED Module,,,,Width remains same for both globes as the Base Plate is 150 Dia
+Glass,7,INFINITY,GL 06 P 10,150 Dia Globe,600,650,1000,150,24,1680,Pendant,Direct & Indirect,LED Module,,,,Width remains same for both globes as the Base Plate is 150 Dia
+Glass,9,HOOP,GL 07 P 10,Globe,600,100,,110,8,560,Pendant,Direct,LED Module,,,,Width remains same for both globes as the Base Plate is 150 Dia
+Glass,9,HOOP,GL 07 P 15,Globe,600,150,,165,12,840,Pendant,Direct,LED Module,,,,Width remains same for both globes as the Base Plate is 150 Dia
+FRP,1,IRIS,FP 01 P 05,Globe,575,295,,,12,900,Pendant,Direct,LED Module,,,,
+FRP,1,IRIS,FP 01 P 08,Globe,855,440,,,20,1500,Pendant,Direct,LED Module,,,,
+FRP,2,SKOF,FP 2A P 05,Globe,560,600,,,12,900,Pendant,Direct,LED Module,,,,Option of 150 Dia Glass Globe  LED Module + Diffuser
+FRP,2,SKOF,FP 2B P 05,Diffuser,560,600,,,30,2700,Pendant,Direct,LED Module,,,,Option of 150 Dia Glass Globe  LED Module + Diffuser
+FRP,3,KUBA,FP 3A P 09,Globe,908,550,,,20,1500,Pendant,Direct,LED Module,,,,Option of 300 Dia Glass Globe  LED Module + Diffuser
+FRP,3,KUBA,FP 3B P 09,Diffuser,908,550,,,50,3500,Pendant,Direct,LED Module,,,,Option of 300 Dia Glass Globe  LED Module + Diffuser
+FRP,4,PLAST,FP 04 P 04,Diffuser,450,200,,,30,2400,Pendant,Direct,LED Module / Bulb,,,,Option of E27  LED Module + Diffuser
+FRP,5,PLAST,FP 05 P 02,Diffuser,200,360,,,10,700,Pendant,Direct,LED Module / Bulb,,,,Option of E27  LED Module + Diffuser
+FRP,6,SOLIS,FP 6A P 06,Diffuser,600,300,,,20,1400,Pendant,Direct,LED Module / Bulb,,,,Option of E27  LED Module + Diffuser
+FRP,6,SOLIS,FP 6A P 09,Diffuser,900,450,,,20,1400,Pendant,Direct,LED Module / Bulb,,,,Option of E27  LED Module + Diffuser
+FRP,6,SOLIS,FP 6A P 12,Diffuser,1200,600,,,30,2100,Pendant,Direct,LED Module / Bulb,,,,Option of E27  LED Module + Diffuser
+FRP,7,SOLIS,FP 6B P 06,Diffuser,1200,350,600,,20,1400,Pendant,Direct,LED Module / Bulb,,,,Option of E27  LED Module + Diffuser
+FRP,7,SOLIS,FP 6B P 09,Diffuser,1200,350,900,,20,1400,Pendant,Direct,LED Module / Bulb,,,,Option of E27  LED Module + Diffuser
+FRP,7,SOLIS,FP 6B P 12,Diffuser,1200,350,1200,,30,2100,Pendant,Direct,LED Module / Bulb,,,,Option of E27  LED Module + Diffuser
+FRP,8,SOLIS,FP 6C P 12,Diffuser,1200,350,1200,,30,2100,Pendant,Direct,LED Module / Bulb,,,,Option of E27  LED Module + Diffuser
+FRP,8,SOLIS,FP 6C P 14,Diffuser,1200,350,1400,,30,2100,Pendant,Direct,LED Module / Bulb,,,,Option of E27  LED Module + Diffuser
+FRP,8,SOLIS,FP 6C P 18,Diffuser,1200,350,1800,,50,3500,Pendant,Direct,LED Module / Bulb,,,,Option of E27  LED Module + Diffuser
+FRP,7,HIKE,FP 07 P 05,Diffuser,500,300,,,30,2400,Pendant,Direct,LED Module / Bulb,,,,Direct / Indirect
+FRP,7,HIKE,FP 07 P 07,Diffuser,700,420,,,40,3200,Pendant,Direct,LED Module / Bulb,,,,Direct / Indirect
+FRP,6,ROB,FP 06 P 05,Diffuser,500,250,,,30,2400,Pendant,Direct / Indirect / Both,LED Module / Bulb,,,,Direct / Indirect
+FRP,6,ROB,FP 06 P 07,Diffuser,700,350,,,40,3200,Pendant,Direct / Indirect / Both,LED Module / Bulb,,,,Direct / Indirect
+Wood,1,FUSTA,WD 01 P 04,,450,50,,,15,900,Pendant,Direct,LED Module,,,,
+Wood,1,FUSTA,WD 01 P 06,,600,80,,,20,1200,Pendant,Direct,LED Module,,,,
+Wood,1,FUSTA,WD 01 P 08,,850,100,,,30,1800,Pendant,Direct,LED Module,,,,
+Wood,2,AGO,WD 02 P 01,,150,180,,,10,600,Pendant,Direct,LED Module /          LED Bulb,,,,
+Wood,2,AGO,WD 02 P 02,,200,240,,,15,1050,Pendant,Direct,LED Module /          LED Bulb,,,,
+Wood,3,TORC,WD 03 P 08,,80,230,,,3,240,Pendant,Direct,LED Module,,,,Small Spot
+Wood,3,TORC,WD 03 P 12,,120,350,,,5,400,Pendant,Direct,LED Module,,,,Small Spot
+Wood,4,SPIN,WD 04 P 03,,300,180,,,10,600,Pendant,Direct,LED Module /          LED Bulb,,,,Small Spot
+Wood,4,SPIN,WD 04 P 05,,500,300,,,15,1050,Pendant,Direct,LED Module /          LED Bulb,,,,Small Spot
+Wood,5,SPIN,WD 05 X 03,,300,180,,,20,1600,Pendant,Direct,LED Module /          LED Bulb,,,,Small Spot
+Wood,5,SPIN,WD 05 X 05,,500,300,,,30,2400,Pendant,Direct,LED Module /          LED Bulb,,,,Small Spot
+Wood,6,DRU,WD 6A P 06,,500,110,600,20,10,700,Pendant,Direct,LED Module,,,,Small Spot
+Wood,6,DRU,WD 6A P 12,,500,110,1200,20,20,1400,Pendant,Direct,LED Module,,,,Small Spot
+Wood,7,DRU,WD 6B P 06,,50,50,600,20,10,800,Pendant,Direct,LED Module,,,,Small Spot
+Wood,7,DRU,WD 6B P 12,,50,50,1200,20,20,1600,Pendant,Direct,LED Module,,,,Small Spot
+Wood,8,DRU CURVE,WD 6C P 12,,50,70,1200,50,20,1600,Pendant,Direct,LED Module,,,,Small Spot
+Wood,9,HAZO,WD 07 P 12,,50,220,1200,80,20,1600,Pendant,Direct,LED Module,,,,Small Spot
+Wood,10,PI,WD 08 T 03,600 mm - Single Leg       1200 & 1800 - Double Leg,50,540,300,80,5,350,Table,Direct,LED Module,,,,Small Spot
+Wood,10,PI,WD 08 T 06,600 mm - Single Leg       1200 & 1800 - Double Leg,50,540,600,80,10,700,Table,Direct,LED Module,,,,Small Spot
+Wood,10,PI,WD 08 T 09,600 mm - Single Leg       1200 & 1800 - Double Leg,50,540,900,80,15,1050,Table,Direct,LED Module,,,,Small Spot
+Wood,10,PI,WD 08 T 12,600 mm - Single Leg       1200 & 1800 - Double Leg,50,540,1200,80,20,1400,Table,Direct,LED Module,,,,Small Spot
+Wood,10,PI,WD 08 T 18,600 mm - Single Leg       1200 & 1800 - Double Leg,50,540,1800,80,30,2100,Table,Direct,LED Module,,,,Small Spot
+Wood,11,SLIDE,WD 09 W 06,600 mm - Single Leg       1200 & 1800 - Double Leg,100,600,150 Depth,100,10,700,Wall,Direct,LED Module,,,,90 Degree Tilting
+Wood,12,PLAT,WD 10 W 03,600 mm - Single Leg       1200 & 1800 - Double Leg,Spot Dia,160,300,70,10,700,Wall,Direct & Indirect,LED Module,,,,90 Degree Tilting
+Wood,12,PLAT,WD 10 W 06,600 mm - Single Leg       1200 & 1800 - Double Leg,Spot Dia,160,600,70,20,1400,Wall,Direct & Indirect,LED Module,,,,90 Degree Tilting
+Wood,12,PLAT,WD 10 W 09,600 mm - Single Leg       1200 & 1800 - Double Leg,Spot Dia,160,900,70,30,2100,Wall,Direct & Indirect,LED Module,,,,90 Degree Tilting
+Wood,13,PLAT,WD 11 W 03,600 mm - Single Leg       1200 & 1800 - Double Leg,Spot Dia,120,300,150,10,700,Wall,Direct & Indirect,LED Module,,,,90 Degree Tilting
+Wood,13,PLAT,WD 11 W 06,600 mm - Single Leg       1200 & 1800 - Double Leg,Spot Dia,120,600,150,20,1400,Wall,Direct & Indirect,LED Module,,,,90 Degree Tilting
+Wood,13,PLAT,WD 11 W 09,600 mm - Single Leg       1200 & 1800 - Double Leg,Spot Dia,120,900,150,30,2100,Wall,Direct & Indirect,LED Module,,,,90 Degree Tilting
+Wood,14,BOIS,WD 12 P 03,600 mm - Single Leg       1200 & 1800 - Double Leg,300,320,,150,10,600,Pendant,Direct,LED Bulb,,,,90 Degree Tilting
+Wood,14,BOIS,WD 12 P 04,600 mm - Single Leg       1200 & 1800 - Double Leg,450,480,,150,10,600,Pendant,Direct,LED Bulb,,,,90 Degree Tilting
+Wood,14,BOIS,WD 12 P 06,600 mm - Single Leg       1200 & 1800 - Double Leg,600,650,,150,15,900,Pendant,Direct,LED Bulb,,,,90 Degree Tilting
+Wood,15,FLOS,WD 13 P 06,600 mm - Single Leg       1200 & 1800 - Double Leg,600,250,,150,20,1500,Pendant,Direct,LED Module,,,,90 Degree Tilting
+Wood,15,FLOS,WD 13 P 09,600 mm - Single Leg       1200 & 1800 - Double Leg,900,375,,150,30,2250,Pendant,Direct,LED Module,,,,90 Degree Tilting
+Wood,15,FLOS,WD 13 P 12,600 mm - Single Leg       1200 & 1800 - Double Leg,1200,500,,150,40,3000,Pendant,Direct,LED Module,,,,90 Degree Tilting
+Wood,11,PLANK,WD 08 P 06,600 mm - Single Leg       1200 & 1800 - Double Leg,1200,160,600,70,25,2000,Pendant,Direct,LED Module,,,,90 Degree Tilting
+Wood,11,PLANK,WD 08 P 09,600 mm - Single Leg       1200 & 1800 - Double Leg,1200,160,900,70,30,2400,Pendant,Direct,LED Module,,,,90 Degree Tilting
+Wood,11,PLANK,WD 08 P 12,600 mm - Single Leg       1200 & 1800 - Double Leg,1200,160,1200,70,45,3600,Pendant,Direct,LED Module,,,,90 Degree Tilting
+Wood,11,PLANK,WD 08 P 15,600 mm - Single Leg       1200 & 1800 - Double Leg,1200,160,1500,70,45,3600,Pendant,Direct,LED Module,,,,90 Degree Tilting
+Wood,12,KENN,WD 09 P 06,600 mm - Single Leg       1200 & 1800 - Double Leg,1200,340,600,500,30,2100,Pendant,Direct,LED Module,,,,90 Degree Tilting
+Wood,12,KENN,WD 09 P 12,600 mm - Single Leg       1200 & 1800 - Double Leg,1200,340,1200,500,50,3500,Pendant,Direct,LED Module,,,,90 Degree Tilting
+Wood,17,TE,WD 14 W 03,600 mm - Single Leg       1200 & 1800 - Double Leg,1200,300,120 Depth,130,9,540,Pendant,Direct,LED Module,,,,90 Degree Tilting
+Wood,6,DRU,WD 6A P 06,600 mm - Single Leg       1200 & 1800 - Double Leg,1200,100,600,50,10,800,Pendant,Direct,LED Module,,,,90 Degree Tilting
+Wood,6,DRU,WD 6A P 12,600 mm - Single Leg       1200 & 1800 - Double Leg,1200,100,1200,50,20,1600,Pendant,Direct,LED Module,,,,90 Degree Tilting
+Cork,1,SUB,CK 01 P 02,,200,100,,,10,600,Pendant,Direct,LED Module /       LED Bulb,,,,
+Cork,1,SUB,CK 01 P 03,,300,150,,,10,600,Pendant,Direct,LED Module /       LED Bulb,,,,
+Cork,1,SUB,CK 01 P 04,,400,200,,,12,720,Pendant,Direct,LED Module /       LED Bulb,,,,
+Cork,2,CODA,CK 02 P 03,,300,250,,,15,1350,Pendant,Direct,LED Module,,,,
+Cork,2,CODA,CK 02 P 04,,450,250,,,20,1800,Pendant,Direct,LED Module,,,,
+Cork,2,CODA,CK 02 P 06,,600,250,,,30,2700,Pendant,Direct,LED Module,,,,
+Cork,3,EET,CK 03 P 03,,340,230,,,15,1350,Pendant,Direct,LED Module /       LED Bulb,,,,
+Cork,4,SURO,CK 04 P 01,,150,200,,,10,600,Pendant,Direct,LED Module,,,,
+Cork,5,HOL,CK 05 P 01,,130,150,,,10,600,Pendant / Wall,Direct,LED Module /       LED Bulb,,,,
+Cork,6,NEO,CK 06 P 08,,80,180,,,10,600,Pendant,Direct,LED Module /       LED Bulb,,,,
+Cork,6,NEO,CK 06 P 10,,100,220,,,10,600,Pendant,Direct,LED Module /       LED Bulb,,,,
+Cork,7,NEO,CK 07 P 02,,200,100,,,10,600,Pendant,Direct,LED Module /       LED Bulb,,,,
+Cork,7,NEO,CK 07 P 03,,300,150,,,10,600,Pendant,Direct,LED Module /       LED Bulb,,,,
+Cork,7,NEO,CK 07 P 04,,400,200,,,15,900,Pendant,Direct,LED Module /       LED Bulb,,,,
+Cork,8,RING,CK 08 P 04,,450,50,,60,20,1600,Pendant,Direct,LED Module,,,,
+Cork,8,RING,CK 08 P 06,,600,50,,60,30,2400,Pendant,Direct,LED Module,,,,
+Cork,8,RING,CK 08 P 09,,900,50,,60,50,4000,Pendant,Direct,LED Module,,,,
+Cork,9,MAXI,CK 09 P 03,,300,150,,60,10,600,Pendant,Direct,LED Module /       LED Bulb,,,,
+Cork,9,MAXI,CK 09 P 04,,400,200,,60,15,900,Pendant,Direct,LED Module /       LED Bulb,,,,
+Cork,4,LE,CK 05 P 01,,100,150,,60,10,600,Pendant,Direct,LED Bulb,,,,
+Cork,6,IGO,CK 06 P 01,,110,290,,60,10,600,Pendant,Direct,LED Bulb,,,,
+Wicker,1,OSI,WI 01 P 04,,450,150,,,10,700,Pending,Direct,Bulb / LED Module,,,,
+Wicker,1,OSI,WI 01 P 06,,600,200,,,20,1400,Pending,Direct,Bulb / LED Module,,,,
+Wicker,1,OSI,WI 01 P 09,,900,300,,,30,2100,Pending,Direct,Bulb / LED Module,,,,
+Wicker,2,WELLE,WI 02 P 05,,500,450,,,10,700,Pending,Direct,Bulb,,,,
+Wicker,3,MESH,WI 03 P 04,,450,270,,,15,1050,Pending,Direct,LED Module,,,,
+Wicker,4,STOCK,WI 04 P 04,,350,300,,,7,420,Pending,Direct,Bulb,,,,
+Jute,1,BOKIT,JT 01 P 04,,450,300,,,9,540,Pendant,Direct,Bulb,,,,
+Jute,1,BOKIT,JT 01 P 06,,600,400,,,12,720,Pendant,Direct,Bulb,,,,
+Jute,1,BOKIT,JT 01 P 09,,900,600,,,15,900,Pendant,Direct,Bulb,,,,
+Jute,2,VEZEL,JT 02 P 04,,450,225,,,9,540,Pendant,Direct,Bulb,,,,
+Jute,2,VEZEL,JT 02 P 06,,600,300,,,12,720,Pendant,Direct,Bulb,,,,
+Jute,2,VEZEL,JT 02 P 09,,900,450,,,15,900,Pendant,Direct,Bulb,,,,
+Jute,3,LANO,JT 03 P 04,,450,380,,,9,540,Pendant,Direct,Bulb,,,,
+Jute,3,LANO,JT 03 P 06,,600,505,,,12,720,Pendant,Direct,Bulb,,,,
+Jute,3,LANO,JT 03 P 09,,900,760,,,15,900,Pendant,Direct,Bulb,,,,
+Jute,4,ZILE,JT 04 P 04,,450,350,,,9,540,Pendant,Direct,Bulb,,,,
+Jute,4,ZILE,JT 04 P 06,,600,450,,,12,720,Pendant,Direct,Bulb,,,,
+Jute,4,ZILE,JT 04 P 09,,900,675,,,15,900,Pendant,Direct,Bulb,,,,
+Jute,3,CORDA,JT 03 P 04,,450,160,,,9,540,Pendant,Direct,Bulb,,,,
+Jute,3,CORDA,JT 03 P 06,,600,160,,,12,720,Pendant,Direct,Bulb,,,,
+Jute,3,CORDA,JT 03 P 09,,900,200,,,15,900,Pendant,Direct,Bulb,,,,
+Thread,1,NIT,TH 01 P 03,,240,315,,,10,700,Pendant,Direct,Lamp,,,,
+Thread,1,NIT,TH 01 P 04,,320,420,,,10,700,Pendant,Direct,Lamp,,,,
+Thread,1,NIT,TH 01 P 05,,400,525,,,10,700,Pendant,Direct,Lamp,,,,
+Thread,1,NIT,TH 01 P 06,,480,630,,,15,1050,Pendant,Direct,Lamp,,,,
+Thread,2,TRED,TH 02 P 03,,300,200,,,10,700,Pendant,Direct,Lamp,,,,
+Thread,2,TRED,TH 02 P 04,,450,300,,,10,700,Pendant,Direct,Lamp,,,,
+Thread,2,TRED,TH 02 P 06,,600,400,,,15,1050,Pendant,Direct,Lamp,,,,
+Thread,3,TRED,TH 03 P 04,,450,250,,,10,700,Pendant,Direct,Lamp,,,,
+Thread,3,TRED,TH 03 P 06,,600,350,,,15,1050,Pendant,Direct,Lamp,,,,
+Thread,3,TRED,TH 03 P 07,,750,450,,,15,1050,Pendant,Direct,Lamp,,,,
+Thread,4,TRED,TH 04 P 03,,300,300,,,10,700,Pendant,Direct,Lamp,,,,
+Thread,4,TRED,TH 04 P 04,,450,450,,,10,700,Pendant,Direct,Lamp,,,,
+Thread,4,TRED,TH 04 P 06,,600,600,,,15,1050,Pendant,Direct,Lamp,,,,
+Thread,5,FIL,TH 05 P 04,,400,250,,,10,700,Pendant,Direct,Lamp,,,,
+Thread,5,FIL,TH 05 P 06,,600,375,,,15,1050,Pendant,Direct,Lamp,,,,
+Thread,5,FIL,TH 05 P 08,,800,500,,,15,1050,Pendant,Direct,Lamp,,,,
+Thread,2,SAP,TH 03 P 04,,400,600,,,10,700,Pendant,Direct,Lamp,,,,
+Thread,2,SAP,TH 03 P 06,,600,900,,,15,1050,Pendant,Direct,Lamp,,,,
+Thread,2,SAP,TH 03 P 08,,800,1200,,,15,1050,Pendant,Direct,Lamp,,,,
+Thread,1,HILO,TH 01 P 05 ,,500,1200,,,10,700,Pendant,Direct,Lamp,,,,
+Thread,1,HILO,TH 01 P 07,,700,1200,,,10,700,Pendant,Direct,Lamp,,,,
+Thread,1,HILO,TH 01 P 10,,1000,1200,,,15,1050,Pendant,Direct,Lamp,,,,
+Thread,1,HILO,TH 01 P 12,,1200,1200,,,15,1050,Pendant,Direct,Lamp,,,,
+Thread,1,HILO,TH 01 P 15,,1500,1200,,,15,1050,Pendant,Direct,Lamp,,,,
+Fabric,1,FABER,FB 01 P 03,,300,320,,,15,900,Pending,Direct,Bulb / LED Module,,,,
+Fabric,1,FABER,FB 01 P 04,,450,480,,,20,1200,Pending,Direct,Bulb / LED Module,,,,
+Fabric,2,FABER,FB 02 P 02,,200,330,,,10,600,Pending,Direct,Bulb / LED Module,,,,
+Fabric,2,FABER,FB 02 P 03,,300,500,,,15,900,Pending,Direct,Bulb / LED Module,,,,
+Fabric,3,FABER,FB 03 P 03,,300,230,,,15,900,Pending,Direct,Bulb / LED Module,,,,
+Fabric,3,FABER,FB 03 P 04,,400,380,,,20,1200,Pending,Direct,Bulb / LED Module,,,,
+Fabric,4,FABER,FB 04 P 05,,500,380,,,20,1200,Pending,Direct,Bulb / LED Module,,,,
+Fabric,4,FABER,FB 04 P 08,,800,600,,,30,1800,Pending,Direct,Bulb / LED Module,,,,
+Concrete,1,DENSO,CC 01 P 02,,200,120,,,15,1050,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,2,DENSO,CC 02 P 02,,200,180,,,15,1050,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,3,DENSO,CC 03 P 02,,200,300,,,15,1050,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,4,CADRO,CC 4A P 02,,200,200,150,150,15,1050,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,4,CADRO,CC 4A P 03,,200,300,,150,15,1050,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,4,CADRO,CC 4A P 04,,200,450,,150,15,1050,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,5,CADRO,CC 4B P 03,,200,300,150,150,10,700,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,5,CADRO,CC 4B P 04,,200,450,150,150,15,1050,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,6,CADRO,CC 4C P 03,,200,300,100,100,10,700,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,6,CADRO,CC 4C P 04,,200,450,150,150,15,1050,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,7,CADRO,CC 4D P 01,,200,300,150,150,10,700,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,7,CADRO,CC 4D P 02,,200,300,200,200,15,1050,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,8,RUSTY,CC 5A P 02,,200,200,,200,15,1050,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,9,RUSTY,CC 5B P 02,,200,200,,200,15,1050,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,10,ORBIT,CC 6A P 02,,150,200,,200,10,700,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,10,ORBIT,CC 6A P 03,,150,300,,200,15,1050,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,10,ORBIT,CC 6A P 04,,150,450,,200,20,1400,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,11,ORBIT,CC 6B P 03,,100,300,,200,10,700,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,11,ORBIT,CC 6B P 04,,150,450,,200,15,1050,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,12,ORBIT,CC 6C P 03,,100,300,,200,10,700,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,12,ORBIT,CC 6C P 04,,150,450,,200,15,1050,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,13,ORBIT,CC 6D P 02,,200,280,,200,15,1050,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,14,ORBIT,CC 6E P 01,,100,200,,200,10,700,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,14,ORBIT,CC 6E P 02,,200,400,,200,15,1050,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,15,ORBIT,CC 6F P 02,,200,280,,200,15,1050,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,16,ZANE,CC 7A P 02,,200,250,,200,15,1050,Pendant,Direct,Bulb,,,,
+Concrete,17,ZANE,CC 7B P 03,,120,300,,200,10,700,Pendant,Direct,LED Module,,,,
+Concrete,18,MOTIF,CC 8A P 02,,250,200,,200,15,1050,Pendant,Direct,LED Module / Bulb,,,,
+Concrete,19,MOTIF,CC 8B P 03,,300,250,,200,20,1400,Pendant,Direct,LED Module / Bulb,,,,
+Clay,1,SERA,CL 1A P 02,,240,120,,,10,700,Pendent,Direct,LED Bulb / LED Module,,,,
+Clay,2,SERA,CL 1B P 02,,290,270,,,10,700,Pendent,Direct,LED Bulb / LED Module,,,,
+Clay,3,SERA,CL 1C P 01,,150,145,,,10,700,Pendent,Direct,LED Bulb / LED Module,,,,
+Clay,4,SERA,CL 1D P 02,,200,90,,,10,700,Pendent,Direct,LED Bulb / LED Module,,,,
+Clay,5,SERA,CL 1E P 01,,150,150,,,10,700,Pendent,Direct,LED Bulb / LED Module,,,,
+Clay,6,SERA,CL 1F P 02,,200,100,,,10,700,Pendent,Direct,LED Bulb / LED Module,,,,
+Clay,7,LOY,CL 02 P 01,,180,260,,,10,700,Pendent,Direct,LED Bulb / LED Module,,,,
+Clay,7,LOY,CL 02 P 02,,260,370,,,10,700,Pendent,Direct,LED Bulb / LED Module,,,,
+Clay,8,ARGILE,CL 3A P 02,,200,200,,,15,1125,Pendent,Direct,LED Bulb / LED Module,,,,
+Clay,8,ARGILE,CL 3A P 03,,300,300,,,20,1500,Pendent,Direct,LED Bulb / LED Module,,,,
+Clay,9,ARGILE,CL 3B P 02,,200,200,,,15,1125,Pendent,Direct,LED Bulb / LED Module,,,,
+Clay,9,ARGILE,CL 3B P 03,,300,300,,,20,1500,Pendent,Direct,LED Bulb / LED Module,,,,
+Clay,10,ARGILE,CL 3C P 02,,200,200,,,15,1125,Pendent,Direct,LED Bulb / LED Module,,,,
+Clay,10,ARGILE,CL 3C P 03,,300,300,,,20,1500,Pendent,Direct,LED Bulb / LED Module,,,,
+Clay,11,TERRA,CL 4A P 01,,100,175,,,15,1125,Pendent,Direct,LED Bulb / LED Module,,,,
+Clay,11,TERRA,CL 4A P 02,,150,260,,,20,1500,Pendent,Direct,LED Bulb / LED Module,,,,
+Clay,12,TERRA,CL 4B P 02,,200,100,,,15,1125,Pendent,Direct,LED Bulb / LED Module,,,,
+Clay,12,TERRA,CL 4B P 03,,300,150,,,20,1500,Pendent,Direct,LED Bulb / LED Module,,,,
+Clay,13,TERRA,CL 4C P 01,,150,130,,,15,1125,Pendent,Direct,LED Bulb / LED Module,,,,
+Clay,13,TERRA,CL 4C P 02,,230,200,,,20,1500,Pendent,Direct,LED Bulb / LED Module,,,,
+Clay,6,ZULO,,,200,250,,,10,700,REMOVED,Direct,LED Bulb / LED Module,,,,
+Clay,13,ZULO,,,200,130,,,10,700,TEMPORARILY REMOVED,Direct,LED Bulb / LED Module,,,,
+Clay,13,ZULO,,,280,180,,,10,700,TEMPORARILY REMOVED,Direct,LED Bulb / LED Module,,,,
+CleanRoom-False Ceiling,1,LUMINA,ST 01 P 10,,,65,1200,480,150,13500,Recessed,Direct,,,,,
+CleanRoom-False Ceiling,2,ZURI-B                    (BOTTOM OPEN),CR 1A R 03,,,65,310,310,20,3000,Recessed,Direct,,,,,
+CleanRoom-False Ceiling,3,ZURI-B                    (BOTTOM OPEN),CR 1B R 06,,,65,610,310,30,3000,Recessed,Direct,,,,,
+CleanRoom-False Ceiling,4,ZURI-B                    (BOTTOM OPEN),CR 2A R 06,,,65,610,610,30,3000,Recessed,Direct,,,,,
+CleanRoom-False Ceiling,4,ZURI-B                    (BOTTOM OPEN),CR 2B R 06,,,65,610,610,40,4000,Recessed,Direct,,,,,
+CleanRoom-False Ceiling,5,ZURI-B                    (BOTTOM OPEN),CR 3A R 12,,,65,1210,310,30,3000,Recessed,Direct,,,,,
+CleanRoom-False Ceiling,5,ZURI-B                    (BOTTOM OPEN),CR 3B R 12,,,65,1210,310,40,4000,Recessed,Direct,,,,,
+CleanRoom-False Ceiling,6,ZURI-B                    (BOTTOM OPEN),CR 4A R 12,,,65,1210,610,40,3000,Recessed,Direct,,,,,
+CleanRoom-False Ceiling,6,ZURI-B                    (BOTTOM OPEN),CR 4B R 12,,,65,1210,610,60,6000,Recessed,Direct,,,,,
+CleanRoom-False Ceiling,7,ZURI-T                   (TOP OPEN),CR 5A R 06,,,65,610,610,30,3000,Recessed,Direct,,,,,
+CleanRoom-False Ceiling,7,ZURI-T                   (TOP OPEN),CR 5B R 06,,,65,610,610,40,4000,Recessed,Direct,,,,,
+CleanRoom-False Ceiling,8,TEGULAR,FC 1A R 05,,,65,595,595,40,4000,Recessed,Direct,,,,,
+CleanRoom-False Ceiling,9,CLIP-IN,FC 1B R 06,,,65,600,600,40,4000,Recessed,Direct,,,,,
+CleanRoom-False Ceiling,10,NURAY,FC 2A R 10,,,65,1195,295,30,3000,Recessed,Direct,,,,,
+CleanRoom-False Ceiling,10,NURAY,FC 2B R 10,,,65,1195,295,40,4000,Recessed,Direct,,,,,
+CleanRoom-False Ceiling,11,NURAY,FC 3A R 05,,,65,595,595,30,3000,Recessed,Direct,,,,,
+CleanRoom-False Ceiling,11,NURAY,FC 3B R 05,,,65,595,595,40,4000,Recessed,Direct,,,,,
+CleanRoom-False Ceiling,12,NURAY,FC 4A R 10,,,65,1195,595,40,4000,Recessed,Direct,,,,,
+CleanRoom-False Ceiling,12,NURAY,FC 4B R 10,,,65,1195,595,60,6000,Recessed,Direct,,,,,
+CleanRoom-False Ceiling,13,STRIPE,FC 05 R 05,,,65,596,596,20,1600,Recessed,Direct,,,,,
+CleanRoom-False Ceiling,14,STRIPE,FC 06 R 05,,,65,596,596,20,1600,Recessed,Direct,,,,,
+CleanRoom-False Ceiling,15,TRAPEZOID,FC 07 R 11,,,65,1194,400,30,3000,Recessed,Direct,,,,,
