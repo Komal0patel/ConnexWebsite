@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&display=swap');
 
 @theme {
-  --color-connex-bg: #FDFDFA;
+  --color-connex-bg: #1a3c6d;
   --color-connex-primary: #121212;
-  --color-connex-cyan: #3ac3d6;
+  --color-connex-cyan: #1a3c6d;
   --color-connex-secondary: #F4F4F1;
   --color-connex-accent: #1e293b;
   --color-connex-text: #1a1a1a;

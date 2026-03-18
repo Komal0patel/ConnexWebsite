@@ -74,7 +74,7 @@ const Contact = () => {
                             </div>
 
                             <button
-                                className="w-full mt-10 group flex items-center justify-between py-8 md:py-10 px-10 md:px-14 bg-[#3ac3d6] text-slate-900 font-black uppercase tracking-[0.5em] md:tracking-[1em] text-[12px] hover:bg-slate-900 hover:text-white transition-all duration-700 shadow-2xl border-2 border-slate-900/20"
+                                className="w-full mt-10 group flex items-center justify-between py-8 md:py-10 px-10 md:px-14 bg-[#1a3c6d] text-slate-900 font-black uppercase tracking-[0.5em] md:tracking-[1em] text-[12px] hover:bg-slate-900 hover:text-white transition-all duration-700 shadow-2xl border-2 border-slate-900/20"
                             >
                                 <span>Submit Protocol</span>
                                 <Send size={18} className="group-hover:translate-x-2 transition-transform" />

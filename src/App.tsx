@@ -3,6 +3,7 @@ import HyperLighting from './pages/HyperLighting';
 import Products from './pages/Products';
 import Products2 from './pages/Products2';
 import Products3 from './pages/Products3';
+import ProductDetail from './pages/ProductDetail';
 import CustomCursor from './components/CustomCursor';
 import SmoothScroll from './components/SmoothScroll';
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/products" element={<Products />} />
           <Route path="/products2" element={<Products2 />} />
           <Route path="/products3" element={<Products3 />} />
+          <Route path="/product/:id" element={<ProductDetail />} />
         </Routes>
       </SmoothScroll>
     </Router>

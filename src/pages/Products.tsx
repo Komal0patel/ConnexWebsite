@@ -16,27 +16,24 @@ interface Product {
     spec: string;
 }
 
-const productsPool: Product[] = [
-    { id: "PX-01", name: "PRISM CORE", img: "/products/prod5.png", sub: "Spectral Refraction System", category: "Optics", price: "₹1,250", spec: "12,500K / 98 CRI" },
-    { id: "EX-A1", name: "ALUMINUM A1", img: "/products/extruded1.png", sub: "Structural Anodized Profile", category: "Structure", price: "₹450", spec: "T6 Alloy / Matte" },
-    { id: "LM-V8", name: "VOLTAX V8", img: "/products/prod8.png", sub: "Lumen Matrix Array", category: "Power", price: "₹890", spec: "400V / High Eff" },
-    { id: "OP-09", name: "OPTIC NERVE", img: "/products/prod10.png", sub: "Neural Engine", category: "Intelligence", price: "₹2,100", spec: "AI Driven / Sync" },
-    { id: "PX-02", name: "NEXUS LITE", img: "/products/prod6.png", sub: "Diffuser Core Architecture", category: "Optics", price: "₹720", spec: "Nano-Etched / Soft" },
-    { id: "PX-03", name: "QUANTUM LINK", img: "/products/prod11.png", sub: "Neural Synchronization Array", category: "Intelligence", price: "₹3,400", spec: "0.2ms Latency" },
-    { id: "EX-A2", name: "STRETCH A2", img: "/products/extruded2.png", sub: "Modular Connector", category: "Structure", price: "₹180", spec: "Titanium Coated" },
-    { id: "OP-10", name: "SYNAPSE L1", img: "/products/prod10.png", sub: "Direct Neural Interface", category: "Intelligence", price: "₹5,200", spec: "Fiber-Ready" },
-    { id: "PX-04", name: "CONNEX LENS", img: "/products/prod6.png", sub: "Chromatic Balancer", category: "Optics", price: "₹990", spec: "Polarized / 4K" },
-    { id: "LM-V9", name: "SUPER VOLT", img: "/products/prod8.png", sub: "High Current Block", category: "Power", price: "₹1,100", spec: "GaN Powered" },
-    { id: "EX-A3", name: "VOID FRAME", img: "/products/extruded1.png", sub: "Recessed Mount", category: "Structure", price: "₹320", spec: "Zero-Bezel" },
-    { id: "OP-11", name: "TOTAL LIGHT", img: "/products/prod5.png", sub: "Ambient Emitter", category: "Optics", price: "₹850", spec: "Full Spectrum" },
-];
+import productsData from '../../CONNEX_PRODUCTS.json';
+
+const productsPool = productsData.slice(0, 15).map((p, idx) => ({
+    id: `${p.product_name}-${idx}`,
+    name: p.product_name,
+    img: `/products/${p.image}`,
+    sub: p.category,
+    category: p.category,
+    price: "₹---",
+    spec: `${p.light_source} / ${p.cri || '85'} CRI`
+}));
 
 const Products = () => {
     const [activeCategory, setActiveCategory] = useState('All Specimens');
     const [isLoading, setIsLoading] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    const allCategories = ['All Specimens', 'Optics', 'Structure', 'Power', 'Intelligence'];
+    const allCategories = ['All Specimens', 'Geometrical Shapes', 'Extruded', 'Linear', 'Fabricated Designer Shapes'];
     const navLinks = [
         { name: 'Home', href: '/' },
         { name: 'Products', href: '/products' },
@@ -98,7 +95,7 @@ const Products = () => {
             <div className="fixed top-4 right-4 md:top-8 md:right-8 z-[700] flex flex-col items-end pointer-events-none">
                 <button
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    className="w-14 h-14 md:w-20 md:h-20 bg-[#3ac3d6] text-slate-900 flex flex-col items-center justify-center rounded-sm shadow-2xl pointer-events-auto hover:bg-slate-900 hover:text-white transition-all duration-500 border-2 border-slate-900/20"
+                    className="w-14 h-14 md:w-20 md:h-20 bg-[#1a3c6d] text-slate-900 flex flex-col items-center justify-center rounded-sm shadow-2xl pointer-events-auto hover:bg-slate-900 hover:text-white transition-all duration-500 border-2 border-slate-900/20"
                 >
                     <span className="text-[10px] font-black uppercase tracking-tighter mb-1 select-none">Menu</span>
                     {isMenuOpen ? <X size={20} /> : <div className="flex flex-col gap-1"><div className="w-6 h-0.5 bg-slate-900 group-hover:bg-white" /><div className="w-4 h-0.5 bg-slate-900 group-hover:bg-white" /></div>}
@@ -111,14 +108,14 @@ const Products = () => {
                             animate={{ opacity: 1, scale: 1, y: 0 }}
                             exit={{ opacity: 0, scale: 0.95, y: -10 }}
                             transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
-                            className="mt-2 md:mt-4 w-64 bg-white border border-[#3ac3d6]/5 shadow-[0_20px_50px_rgba(0,0,0,0.1)] rounded-sm overflow-hidden z-[1000] pointer-events-auto"
+                            className="mt-2 md:mt-4 w-64 bg-white border border-[#1a3c6d]/5 shadow-[0_20px_50px_rgba(0,0,0,0.1)] rounded-sm overflow-hidden z-[1000] pointer-events-auto"
                         >
                             <div className="flex flex-col p-2">
                                 {navLinks.map((link, idx) => (
                                     <Link
                                         key={link.name}
                                         to={link.href}
-                                        className="px-5 py-5 text-[12px] font-sans font-black text-slate-900/80 hover:text-slate-900 hover:bg-[#3ac3d6]/10 tracking-[0.3em] uppercase transition-all flex items-center gap-6 border-b border-black/5 last:border-0"
+                                        className="px-5 py-5 text-[12px] font-sans font-black text-slate-900/80 hover:text-slate-900 hover:bg-[#1a3c6d]/10 tracking-[0.3em] uppercase transition-all flex items-center gap-6 border-b border-black/5 last:border-0"
                                         onClick={() => setIsMenuOpen(false)}
                                     >
                                         <span className="text-[10px] font-mono text-slate-900 opacity-40">0{idx + 1}</span>
@@ -128,8 +125,8 @@ const Products = () => {
                             </div>
 
                             {/* Footer Detail */}
-                            <div className="bg-[#3ac3d6]/[0.01] border-t border-[#3ac3d6]/5 p-4 flex justify-between items-center">
-                                <span className="text-[7px] font-mono text-[#3ac3d6]/20 tracking-widest uppercase italic">Archive_Sys_04</span>
+                            <div className="bg-[#1a3c6d]/[0.01] border-t border-[#1a3c6d]/5 p-4 flex justify-between items-center">
+                                <span className="text-[7px] font-mono text-[#1a3c6d]/20 tracking-widest uppercase italic">Archive_Sys_04</span>
                                 <div className="flex gap-2">
                                     <div className="w-2 h-2 rounded-full bg-slate-900" />
                                     <div className="w-2 h-2 rounded-full bg-slate-900/10" />
@@ -165,14 +162,14 @@ const Products = () => {
                             <span className="text-slate-500 font-mono text-xs md:text-sm uppercase font-black tracking-[0.2em]">Archive_Inventory</span>
                             <div className="divider-fine w-8 md:w-12" />
                         </div>
-                        <h1 className="text-4xl md:text-5xl lg:text-[6.5vw] font-serif text-slate-900 tracking-tighter uppercase leading-none overflow-hidden">
-                            The <span className="text-connex-gradient italic font-light lowercase">Hardware.</span>
+                        <h1 className="text-4xl md:text-5xl lg:text-[6.5vw] font-serif text-slate-900 tracking-tighter uppercase leading-[0.8] overflow-hidden">
+                            The <span className="text-connex-gradient italic font-light lowercase translate-x-1 inline-block">Hardware.</span>
                         </h1>
                     </div>
                 </motion.div>
 
                 {/* 2. Horizontal Category Strip (Restored & Fixed) */}
-                <div className="flex border-b border-[#3ac3d6]/5 bg-[#FDFDFA] mb-8 overflow-x-auto no-scrollbar scroll-smooth relative z-20">
+                <div className="flex border-b border-[#1a3c6d]/5 bg-[#FDFDFA] mb-8 overflow-x-auto no-scrollbar scroll-smooth relative z-20">
                     {allCategories.map((cat) => (
                         <button
                             key={cat}
@@ -183,7 +180,7 @@ const Products = () => {
                             {activeCategory === cat && (
                                 <motion.div
                                     layoutId="cat-bg-premium-restored"
-                                    className="absolute inset-0 bg-[#3ac3d6] z-0 shadow-lg"
+                                    className="absolute inset-0 bg-[#1a3c6d] z-0 shadow-lg"
                                     transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
                                 />
                             )}
@@ -204,10 +201,10 @@ const Products = () => {
                                 className="absolute inset-0 flex flex-col items-center justify-center space-y-8 h-[60vh]"
                             >
                                 <div className="flex items-center gap-4">
-                                    <div className="w-2 h-2 rounded-full bg-[#3ac3d6] animate-ping" />
-                                    <span className="text-[10px] md:text-sm font-mono text-[#3ac3d6] uppercase tracking-[0.3em] font-black text-center">Specimen_Extraction_In_Progress</span>
+                                    <div className="w-2 h-2 rounded-full bg-[#1a3c6d] animate-ping" />
+                                    <span className="text-[10px] md:text-sm font-mono text-[#1a3c6d] uppercase tracking-[0.3em] font-black text-center">Specimen_Extraction_In_Progress</span>
                                 </div>
-                                <div className="w-60 md:w-80 h-[1px] bg-[#3ac3d6]/5 relative overflow-hidden">
+                                <div className="w-60 md:w-80 h-[1px] bg-[#1a3c6d]/5 relative overflow-hidden">
                                     <motion.div
                                         initial={{ left: '-100%' }}
                                         animate={{ left: '100%' }}
@@ -306,7 +303,7 @@ const ProductCard = ({ product, index }: { product: Product; index: number }) =>
             className="group relative flex flex-col"
         >
             {/* The Luxury Compact Case */}
-            <div className="relative aspect-[3/4] flex flex-col p-4 overflow-hidden transition-all duration-1000 bg-[#FDFDFA] shadow-connex-light border border-[#3ac3d6]/5 rounded-[1px] bg-noise">
+            <div className="relative aspect-[3/4] flex flex-col p-4 overflow-hidden transition-all duration-1000 bg-[#FDFDFA] shadow-connex-light border border-[#1a3c6d]/5 rounded-[1px] bg-noise">
 
                 {/* 1. Shimmer Overlay */}
                 <div
@@ -316,15 +313,15 @@ const ProductCard = ({ product, index }: { product: Product; index: number }) =>
                     }}
                 />
 
-                <div className="absolute inset-1 border border-[#3ac3d6]/[0.03] pointer-events-none group-hover:border-[#8B7E74]/30 transition-colors duration-1000 z-10" />
+                <div className="absolute inset-1 border border-[#1a3c6d]/[0.03] pointer-events-none group-hover:border-[#8B7E74]/30 transition-colors duration-1000 z-10" />
 
                 {/* 2. Header */}
                 <div className="relative z-10 pl-1 flex justify-between items-start mb-2">
                     <div className="space-y-1">
                         <span className="text-[12px] font-mono text-slate-900 font-black tracking-[0.2em] uppercase opacity-60">Specimen_{product.id}</span>
-                        <h4 className="text-2xl font-serif text-slate-900 leading-none uppercase tracking-tighter">
+                        <h4 className="text-2xl font-serif text-slate-900 leading-[0.9] uppercase tracking-tighter">
                             {product.name.split(' ')[0]} <br />
-                            <span className="italic font-light lowercase text-connex-gradient text-xl">{product.name.split(' ')[1]}</span>
+                            <span className="italic font-light lowercase text-connex-gradient text-xl translate-x-2 inline-block">{product.name.split(' ').slice(1).join(' ')}</span>
                         </h4>
                     </div>
                 </div>
@@ -343,14 +340,17 @@ const ProductCard = ({ product, index }: { product: Product; index: number }) =>
 
                     {/* Compact Overlay */}
                     <div className="absolute inset-0 z-30 opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col items-center justify-center p-4 text-center bg-white/5 backdrop-blur-[1px]">
-                        <button className="px-10 py-4 bg-slate-900 text-white text-[11px] font-black uppercase tracking-[0.3em] hover:bg-[#3ac3d6] hover:text-slate-900 transition-all shadow-2xl">
+                        <Link
+                            to={`/product/${encodeURIComponent(product.name)}`}
+                            className="px-10 py-4 bg-slate-900 text-white text-[11px] font-black uppercase tracking-[0.3em] hover:bg-[#1a3c6d] hover:text-slate-900 transition-all shadow-2xl"
+                        >
                             Extractor_View
-                        </button>
+                        </Link>
                     </div>
                 </div>
 
                 {/* 4. Footer */}
-                <div className="relative z-10 px-1 mt-auto flex justify-between items-end border-t border-[#3ac3d6]/[0.03] pt-2">
+                <div className="relative z-10 px-1 mt-auto flex justify-between items-end border-t border-[#1a3c6d]/[0.03] pt-2">
                     <div className="space-y-1">
                         <span className="text-xs font-mono text-slate-900 font-black uppercase block tracking-widest">{product.category}</span>
                     </div>

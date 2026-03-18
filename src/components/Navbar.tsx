@@ -33,7 +33,7 @@ const Navbar = () => {
             animate={{
                 y: isScrolled ? 0 : -100,
                 opacity: isScrolled ? 1 : 0,
-                backgroundColor: 'rgba(58, 195, 214, 0.95)',
+                backgroundColor: 'rgba(26, 60, 109, 0.95)',
                 backdropFilter: 'blur(12px)',
                 borderBottom: '1px solid rgba(255, 255, 255, 0.05)',
                 paddingTop: '1.5rem',
@@ -101,7 +101,7 @@ const Navbar = () => {
                         animate={{ opacity: 1, scale: 1, y: 0 }}
                         exit={{ opacity: 0, scale: 0.95, y: -10 }}
                         transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
-                        className="absolute top-full right-6 mt-4 w-64 bg-[#3ac3d6] border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.5)] rounded-sm overflow-hidden z-[1000]"
+                        className="absolute top-full right-6 mt-4 w-64 bg-[#1a3c6d] border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.5)] rounded-sm overflow-hidden z-[1000]"
                     >
                         <div className="flex flex-col p-2">
                             {navLinks.map((link, idx) => (

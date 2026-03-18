@@ -27,7 +27,7 @@ const TypographicGrid = () => {
                     >
                         <Link
                             to="/products"
-                            className="bg-[#3ac3d6] text-[#FDFDFA] text-[10px] md:text-xs font-mono tracking-[0.2em] md:tracking-[0.3em] uppercase py-3 px-6 md:py-4 md:px-8 border border-transparent hover:bg-transparent hover:text-[#3ac3d6] hover:border-[#3ac3d6] transition-colors duration-500 rounded-full"
+                            className="bg-[#1a3c6d] text-[#FDFDFA] text-[10px] md:text-xs font-mono tracking-[0.2em] md:tracking-[0.3em] uppercase py-3 px-6 md:py-4 md:px-8 border border-transparent hover:bg-transparent hover:text-[#1a3c6d] hover:border-[#1a3c6d] transition-colors duration-500 rounded-full"
                         >
                             View More
                         </Link>

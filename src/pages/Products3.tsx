@@ -187,7 +187,7 @@ const Products3 = () => {
                 {selectedSpecimen && (
                     <motion.div
                         initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
-                        className="fixed inset-0 z-[2000] bg-[#3ac3d6]/98 backdrop-blur-2xl flex items-center justify-center p-6"
+                        className="fixed inset-0 z-[2000] bg-[#1a3c6d]/98 backdrop-blur-2xl flex items-center justify-center p-6"
                     >
                         <motion.div
                             initial={{ scale: 0.98, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} exit={{ scale: 0.98, opacity: 0 }}
@@ -229,7 +229,7 @@ const Products3 = () => {
                         animate={{ opacity: 1, scale: 1, y: 0 }}
                         exit={{ opacity: 0, scale: 0.95, y: -10 }}
                         transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
-                        className="fixed top-16 md:top-24 left-4 md:left-8 w-64 bg-[#3ac3d6] border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.5)] rounded-sm overflow-hidden z-[1100]"
+                        className="fixed top-16 md:top-24 left-4 md:left-8 w-64 bg-[#1a3c6d] border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.5)] rounded-sm overflow-hidden z-[1100]"
                     >
                         <div className="flex flex-col p-2">
                             {navLinks.map((link, idx) => (

@@ -13,7 +13,7 @@ const HyperLighting = () => {
     const { scrollYProgress } = useScroll();
 
     return (
-        <div className="relative bg-[#FDFDFA] text-[#3ac3d6] selection:bg-[#3ac3d6] selection:text-[#FDFDFA] overflow-x-hidden">
+        <div className="relative bg-[#FDFDFA] text-[#1a3c6d] selection:bg-[#1a3c6d] selection:text-[#FDFDFA] overflow-x-hidden">
             <Navbar />
             <CosmicBackground />
 
