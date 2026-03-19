@@ -14,9 +14,10 @@ import type { Product } from '../types/product';
 export const ALL_PRODUCTS: Product[] = (productsData as any[]).map((p, idx) => ({
     ...p,
     id: `${p.product_name}-${idx}`,
-    img: `/products/${p.image}`,
+    // Ensure the path is absolute from the root
+    img: `/products/${p.image.trim()}`,
     spec: `${p.light_source || 'LED'} / ${p.cri || '85'} CRI`,
-    price: "₹---", // Placeholder for dynamic pricing
+    price: "₹---",
 }));
 
 // Helper: Get categories for filtering

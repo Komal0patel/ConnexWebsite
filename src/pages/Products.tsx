@@ -186,7 +186,7 @@ const Products = () => {
                 <motion.div variants={THEME.animations.variants.revealUp} className="mt-40 flex flex-col items-center">
                     <div className="flex items-center gap-10 opacity-20 mb-10 w-full">
                         <div className="h-[1px] flex-1 bg-slate-900" />
-                        <span className="text-[10px] font-mono tracking-[0.8em] font-black text-slate-900 uppercase">Archive_Diagnostics_Valid</span>
+                        <span className="text-[10px] font-mono tracking-[0.8em] font-black text-slate-900 uppercase">Curated_Specimens_Archive_Valid</span>
                         <div className="h-[1px] flex-1 bg-slate-900" />
                     </div>
                 </motion.div>

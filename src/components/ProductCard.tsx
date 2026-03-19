@@ -116,7 +116,16 @@ const ProductCard = ({ product, index }: ProductCardProps) => {
                         alt={product.product_name}
                         animate={{ y: [0, -4, 0] }}
                         transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-                        className="h-[65%] object-contain filter drop-shadow-xl transition-all duration-1000 group-hover:blur-md group-hover:scale-110"
+                        className="h-3/4 w-auto object-contain filter drop-shadow-2xl transition-all duration-1000 group-hover:scale-110 relative z-10"
+                        onError={(e) => {
+                            // Fallback in case the path is slightly different
+                            const target = e.target as HTMLImageElement;
+                            if (target.src.includes('/products/')) {
+                                // Try relative path if absolute fails
+                                const filename = target.src.split('/').pop();
+                                target.src = `products/${filename}`;
+                            }
+                        }}
                     />
 
                     {/* Compact Overlay */}
