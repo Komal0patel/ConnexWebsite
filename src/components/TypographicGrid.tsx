@@ -1,19 +1,29 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import THEME from '../constants/theme';
 
 const TypographicGrid = () => {
     return (
-        <section id="products" className="relative w-full overflow-hidden bg-[#FDFDFA] pt-4 pb-12 lg:pt-8 lg:pb-24">
+        <section
+            id="products"
+            className="relative w-full overflow-hidden pt-4 pb-12 lg:pt-8 lg:pb-24"
+            style={{ backgroundColor: THEME.colors.secondary }}
+        >
             <div className="container mx-auto px-6 md:px-12 lg:px-24 max-w-[1400px]">
-                <div className="w-full relative overflow-hidden flex justify-center shadow-connex-light border border-black/5 bg-[#F4F4F1]">
+                <div
+                    className="w-full relative overflow-hidden flex justify-center border shadow-connex-light"
+                    style={{
+                        backgroundColor: THEME.colors.secondary,
+                        borderColor: THEME.colors.primaryAlpha(0.05)
+                    }}
+                >
                     <motion.img
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 1.2, ease: "easeOut" }}
+                        transition={THEME.animations.transitions.slow}
                         viewport={{ once: true, margin: "-100px" }}
                         src="/ourcoll.png"
                         alt="Our Collection Presentation"
-                        // object-contain prevents cutting, w-full spans container, block removes inline spacing
                         className="w-full h-auto object-contain block"
                     />
 
@@ -27,7 +37,11 @@ const TypographicGrid = () => {
                     >
                         <Link
                             to="/products"
-                            className="bg-[#1a3c6d] text-[#FDFDFA] text-[10px] md:text-xs font-mono tracking-[0.2em] md:tracking-[0.3em] uppercase py-3 px-6 md:py-4 md:px-8 border border-transparent hover:bg-transparent hover:text-[#1a3c6d] hover:border-[#1a3c6d] transition-colors duration-500 rounded-full"
+                            className="text-white text-[10px] md:text-xs font-black tracking-[0.3em] uppercase py-3 px-6 md:py-4 md:px-8 transition-all duration-500 rounded-full shadow-2xl"
+                            style={{
+                                backgroundColor: THEME.colors.primary,
+                                fontFamily: THEME.typography.fonts.mono
+                            }}
                         >
                             View More
                         </Link>
@@ -40,3 +54,4 @@ const TypographicGrid = () => {
 };
 
 export default TypographicGrid;
+

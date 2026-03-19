@@ -1,5 +1,4 @@
-import { useScroll } from 'framer-motion';
-import { motion } from 'framer-motion';
+import { useScroll, motion } from 'framer-motion';
 import SuperHero from '../components/SuperHero';
 import TypographicGrid from '../components/TypographicGrid';
 import AboutUs from '../components/AboutUs';
@@ -8,12 +7,20 @@ import Contact from '../components/Contact';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import CosmicBackground from '../components/CosmicBackground';
+import THEME from '../constants/theme';
 
 const HyperLighting = () => {
     const { scrollYProgress } = useScroll();
 
     return (
-        <div className="relative bg-[#FDFDFA] text-[#1a3c6d] selection:bg-[#1a3c6d] selection:text-[#FDFDFA] overflow-x-hidden">
+        <div
+            className="relative overflow-x-hidden selection:bg-[#1a3c6d] selection:text-white"
+            style={{
+                backgroundColor: THEME.colors.secondary,
+                color: THEME.colors.primary,
+                fontFamily: THEME.typography.fonts.sans
+            }}
+        >
             <Navbar />
             <CosmicBackground />
 
@@ -43,11 +50,15 @@ const HyperLighting = () => {
 
             {/* Elegant Progress Line - Minimalist */}
             <motion.div
-                style={{ scaleX: scrollYProgress }}
-                className="fixed bottom-0 left-0 right-0 h-[2px] bg-[#8B7E74] origin-left z-[1000]"
+                style={{
+                    scaleX: scrollYProgress,
+                    backgroundColor: THEME.colors.primaryAlpha(0.3)
+                }}
+                className="fixed bottom-0 left-0 right-0 h-[2px] origin-left z-[1000]"
             />
         </div>
     );
 };
 
 export default HyperLighting;
+

@@ -1,31 +1,26 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
+import THEME from '../constants/theme';
+import { NAV_LINKS } from '../constants/routes';
 
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const location = useLocation();
 
     useEffect(() => {
         const handleScroll = () => {
-            // Reveal navbar only after scrolling past a portion of the hero
-            // Increased threshold to 30% of viewport height
-            const scrolled = window.scrollY > window.innerHeight * 0.3;
-            setIsScrolled(scrolled);
+            const threshold = window.innerHeight * 0.3;
+            setIsScrolled(window.scrollY > threshold);
         };
         window.addEventListener('scroll', handleScroll);
-        handleScroll(); // Initial check
+        handleScroll();
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    const navLinks = [
-        { name: 'Home', href: '/' },
-        { name: 'Products', href: '/products' },
-        { name: 'Products2', href: '/products2' },
-        { name: 'Products3', href: '/products3' },
-        { name: 'Our Ethos', href: '/#about' },
-    ];
+    const navLinks = NAV_LINKS;
 
     return (
         <motion.nav
@@ -33,14 +28,14 @@ const Navbar = () => {
             animate={{
                 y: isScrolled ? 0 : -100,
                 opacity: isScrolled ? 1 : 0,
-                backgroundColor: 'rgba(26, 60, 109, 0.95)',
-                backdropFilter: 'blur(12px)',
-                borderBottom: '1px solid rgba(255, 255, 255, 0.05)',
+                backgroundColor: THEME.colors.navbar,
+                backdropFilter: `blur(${THEME.glass.blur})`,
+                borderBottom: THEME.glass.border,
                 paddingTop: '1.5rem',
                 paddingBottom: '1.5rem',
                 pointerEvents: isScrolled ? 'auto' : 'none'
             }}
-            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+            transition={THEME.animations.transitions.default}
             className="fixed top-0 left-0 w-full z-[500] transition-all duration-700"
         >
             <div className="container mx-auto px-6 flex justify-between items-center">
@@ -53,10 +48,18 @@ const Navbar = () => {
                         className="w-8 h-8 md:w-12 md:h-12 rounded-full object-cover"
                     />
                     <div className="flex flex-col items-start leading-none">
-                        <span className="text-2xl md:text-4xl font-serif text-white font-medium tracking-tight uppercase italic">
+                        <span
+                            className="text-2xl md:text-4xl font-serif text-white font-medium tracking-tight uppercase italic"
+                            style={{ fontFamily: THEME.typography.fonts.serif }}
+                        >
                             Connex
                         </span>
-                        <span className="text-[10px] md:text-[12px] text-slate-900 font-sans tracking-[1.2em] font-black mt-1 ml-1 scale-x-110 origin-left">DESIGN STUDIO</span>
+                        <span
+                            className="text-[10px] md:text-[12px] text-slate-900 font-sans tracking-[1.2em] font-black mt-1 ml-1 scale-x-110 origin-left"
+                            style={{ letterSpacing: THEME.typography.tracking.mega }}
+                        >
+                            DESIGN STUDIO
+                        </span>
                     </div>
                 </Link>
 
@@ -66,10 +69,14 @@ const Navbar = () => {
                         <Link
                             key={link.name}
                             to={link.href}
-                            className="text-slate-900 hover:text-white text-[12px] font-sans font-black tracking-[0.3em] uppercase transition-all relative group"
+                            className={`text-[12px] font-sans font-black tracking-[0.3em] uppercase transition-all relative group ${location.pathname === link.href ? 'text-white' : 'text-slate-900 hover:text-white'
+                                }`}
                         >
                             {link.name}
-                            <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-slate-900 transition-all duration-500 group-hover:w-full" />
+                            <span
+                                className={`absolute -bottom-1 left-0 h-[2px] bg-white transition-all duration-500 ${location.pathname === link.href ? 'w-full' : 'w-0 group-hover:w-full'
+                                    }`}
+                            />
                         </Link>
                     ))}
 
@@ -97,11 +104,12 @@ const Navbar = () => {
             <AnimatePresence>
                 {isMobileMenuOpen && (
                     <motion.div
-                        initial={{ opacity: 0, scale: 0.95, y: -10 }}
-                        animate={{ opacity: 1, scale: 1, y: 0 }}
-                        exit={{ opacity: 0, scale: 0.95, y: -10 }}
-                        transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
+                        variants={THEME.animations.variants.revealUp}
+                        initial="hidden"
+                        animate="visible"
+                        exit="hidden"
                         className="absolute top-full right-6 mt-4 w-64 bg-[#1a3c6d] border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.5)] rounded-sm overflow-hidden z-[1000]"
+                        style={{ backgroundColor: THEME.colors.primary }}
                     >
                         <div className="flex flex-col p-2">
                             {navLinks.map((link, idx) => (
@@ -128,7 +136,7 @@ const Navbar = () => {
 
                         {/* Footer Detail */}
                         <div className="bg-white/[0.02] border-t border-white/5 p-4 flex justify-between items-center">
-                            <span className="text-[7px] font-mono text-white/20 tracking-widest uppercase">Rev_04.26</span>
+                            <span className="text-[7px] font-mono text-white/20 tracking-widest uppercase">Rev_05.19</span>
                             <div className="flex gap-1">
                                 <div className="w-1 h-1 rounded-full bg-white/40" />
                                 <div className="w-1 h-1 rounded-full bg-white/10" />
@@ -142,3 +150,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

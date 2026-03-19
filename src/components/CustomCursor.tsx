@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { motion, useSpring, useMotionValue } from 'framer-motion';
+import THEME from '../constants/theme';
 
 const CustomCursor = () => {
     const [isHovering, setIsHovering] = useState(false);
@@ -56,7 +57,7 @@ const CustomCursor = () => {
                 }}
                 animate={{
                     scale: isClicking ? 0.7 : 1,
-                    backgroundColor: isHovering ? '#FDFDFA' : '#121212',
+                    backgroundColor: isHovering ? THEME.colors.secondary : THEME.colors.dark,
                 }}
                 className="w-1.5 h-1.5 rounded-full z-20 mix-blend-difference"
             />
@@ -68,13 +69,14 @@ const CustomCursor = () => {
                     y: ringY,
                     translateX: '-50%',
                     translateY: '-50%',
+                    borderColor: THEME.colors.primaryAlpha(0.3)
                 }}
                 animate={{
                     scale: isHovering ? 2.5 : 1,
                     opacity: isHovering ? 0.8 : 0.3,
-                    borderColor: isHovering ? '#121212' : '#8B7E74',
+                    borderColor: isHovering ? THEME.colors.dark : THEME.colors.primaryAlpha(0.3),
                 }}
-                className="w-8 h-8 border border-[#8B7E74] rounded-full z-10 transition-colors duration-500"
+                className="w-8 h-8 border rounded-full z-10 transition-colors duration-500"
             />
 
             {/* 3. Subtle Ambient Light - Static follow */}
@@ -84,15 +86,17 @@ const CustomCursor = () => {
                     y: ringY,
                     translateX: '-50%',
                     translateY: '-50%',
+                    backgroundColor: THEME.colors.primaryAlpha(0.2)
                 }}
                 animate={{
                     scale: isHovering ? 4 : 2,
                     opacity: isHovering ? 0.05 : 0.02,
                 }}
-                className="w-20 h-20 bg-[#8B7E74] rounded-full blur-3xl"
+                className="w-20 h-20 rounded-full blur-3xl"
             />
         </div>
     );
 };
 
 export default CustomCursor;
+
